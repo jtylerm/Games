@@ -1,0 +1,866 @@
+﻿Log file open, 04/09/15 19:58:47
+LogInit:Display: Running engine for game: Particles
+LogInit: Version: 4.7.5-2503383+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr  6 2015 23:21:51
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.04.09-23.58.47:803][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.04.09-23.58.47:873][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.04.09-23.58.47:894][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.04.09-23.58.47:906][  0]LogInit: Object subsystem initialized
+[2015.04.09-23.58.47:908][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.04.09-23.58.47:908][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Tyler/Documents/GitHub/Games/Sandbox/ParticleSystemPlay/Particles/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.09-23.58.47:908][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.04.09-23.58.47:908][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Tyler/Documents/GitHub/Games/Sandbox/ParticleSystemPlay/Particles/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.09-23.58.47:908][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.04.09-23.58.47:908][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Tyler/Documents/GitHub/Games/Sandbox/ParticleSystemPlay/Particles/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.09-23.58.47:908][  0]LogInit: Selected Device Profile: [Windows]
+[2015.04.09-23.58.47:908][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.04.09-23.58.47:915][  0]LogInit: Computer: GRAPHICSSERVER
+[2015.04.09-23.58.47:915][  0]LogInit: User: tyler
+[2015.04.09-23.58.47:915][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.04.09-23.58.47:915][  0]LogInit: High frequency timer resolution =3.001600 MHz
+[2015.04.09-23.58.47:915][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx) Virtual=131072.0GB
+[2015.04.09-23.58.47:916][  0]LogMemory: Platform Memory Stats for Windows
+[2015.04.09-23.58.47:916][  0]LogMemory: Process Physical Memory: 45.94 MB used, 45.94 MB peak
+[2015.04.09-23.58.47:916][  0]LogMemory: Process Virtual Memory: 22.50 MB used, 22.50 MB peak
+[2015.04.09-23.58.47:916][  0]LogMemory: Physical Memory: 4108.65 MB used, 16375.11 MB total
+[2015.04.09-23.58.47:916][  0]LogMemory: Virtual Memory: 285.02 MB used, 134217728.00 MB total
+[2015.04.09-23.58.47:932][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 5700 Series (Feature Level 11_0)
+[2015.04.09-23.58.47:932][  0]LogD3D11RHI: Adapter has 1005MB of dedicated video memory, 0MB of dedicated system memory, and 7936MB of shared system memory, 2 output[s]
+[2015.04.09-23.58.47:933][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.04.09-23.58.47:933][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.04.09-23.58.47:933][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.04.09-23.58.47:935][  0]LogRHI: Texture pool is 704 MB (70% of 1005 MB)
+[2015.04.09-23.58.47:940][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.04.09-23.58.48:006][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.04.09-23.58.48:074][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.04.09-23.58.48:074][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.04.09-23.58.48:164][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.04.09-23.58.50:821][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.09-23.58.51:401][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.09-23.58.51:474][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.04.09-23.58.51:525][  0]LogDerivedDataCache: Loaded boot cache 0.05s 39MB C:/Users/tyler/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.09-23.58.51:525][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/tyler/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.04.09-23.58.51:525][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Tyler/Documents/GitHub/Games/Sandbox/ParticleSystemPlay/Particles/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.04.09-23.58.51:525][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.04.09-23.58.51:661][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.04.09-23.58.51:673][  0]LogDerivedDataCache: Using Local data cache path C:/Users/tyler/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.04.09-23.58.52:010][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.04.09-23.58.52:010][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.04.09-23.58.52:437][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.04.09-23.58.52:526][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.04.09-23.58.53:433][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.04.09-23.58.53:667][  0]SourceControl: Info Source control is disabled
+[2015.04.09-23.58.53:667][  0]SourceControl: Info Source control is disabled
+[2015.04.09-23.58.53:667][  0]SourceControl: Info Source control is disabled
+[2015.04.09-23.58.53:667][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.04.09-23.58.53:667][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.04.09-23.58.53:678][  0]SourceControl: Info Source control is disabled
+[2015.04.09-23.58.53:887][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.04.09-23.58.53:887][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.04.09-23.58.53:983][  0]LogEngine: Initializing Engine...
+[2015.04.09-23.58.56:176][  0]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.04.09-23.58.56:190][  0]LogInit: FAudioDevice initialized.
+[2015.04.09-23.58.56:233][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.09-23.58.56:256][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/tyler/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.09-23.58.56:265][  0]LogInit: Texture streaming: Enabled
+[2015.04.09-23.58.56:371][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.04.09-23.58.56:371][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.5-2503383+++depot+UE4-Releases+4.7
+[2015.04.09-23.58.56:371][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.5-2503383+++depot+UE4-Releases+4.7
+[2015.04.09-23.58.56:371][  0]LogAnalytics: SetUserId cd12d6bf4b729a9f6ba70cb844a09567|71ce951bf3604114a422a27333520941|2c8b098c-dff3-496a-b981-565ca309ad16
+[2015.04.09-23.58.56:371][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.04.09-23.58.56:397][  0]LogInit: Transaction tracking system initialized
+[2015.04.09-23.58.56:588][  0]BlueprintLog: New page: Editor Load
+[2015.04.09-23.58.56:626][  0]LogAssetRegistry: FAssetRegistry took 0.0107 seconds to start up
+[2015.04.09-23.58.56:626][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.04.09-23.58.57:258][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.09-23.58.57:668][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.09-23.58.57:981][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.04.09-23.58.57:981][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.04.09-23.58.57:986][  0]LogConsoleResponse:Display: 
+[2015.04.09-23.58.58:208][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.04.09-23.58.58:372][  0]SourceControl: Info Source control is disabled
+[2015.04.09-23.58.58:372][  0]Cmd: MAP LOAD FILE="D:/Tyler/Documents/GitHub/Games/Sandbox/ParticleSystemPlay/Particles/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.09-23.58.58:373][  0]LightingResults: New page: Lighting Build
+[2015.04.09-23.58.58:386][  0]MapCheck: New page: Map Check
+[2015.04.09-23.58.58:386][  0]LightingResults: New page: Lighting Build
+[2015.04.09-23.58.58:394][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D045F08C20
+[2015.04.09-23.58.58:404][  0]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.09-23.59.00:026][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.09-23.59.01:129][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.09-23.59.01:130][  0]Cmd: MAP CHECKDEP
+[2015.04.09-23.59.01:130][  0]MapCheck: New page: FirstPersonExampleMap - Apr 9, 2015, 3:59:01 PM
+[2015.04.09-23.59.01:228][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 98.38ms to complete.
+[2015.04.09-23.59.01:229][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 2.856
+[2015.04.09-23.59.01:396][  0]LogCollectionManager: Loaded 0 collections in 0.002241 seconds
+[2015.04.09-23.59.01:408][  0]LogContentBrowser: Native class hierarchy populated in 0.0118 seconds. Added 1696 classes and 261 folders.
+[2015.04.09-23.59.01:446][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0023 seconds. Added 1 classes and 2 folders.
+[2015.04.09-23.59.01:506][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.04.09-23.59.01:507][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.04.09-23.59.01:513][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.04.09-23.59.01:539][  0]LogLoad: Full Startup: 15.65 seconds (BP compile: 0.63 seconds)
+[2015.04.09-23.59.01:576][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP'
+[2015.04.09-23.59.01:774][  0]LogRenderer:Warning: Reallocating scene render targets to support 1616x920 (Frame:2).
+[2015.04.09-23.59.02:323][  6]LogAssetRegistry: Asset discovery search completed in 5.7076 seconds
+[2015.04.09-23.59.36:081][995]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.09-23.59.36:081][995]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Blueprints'
+[2015.04.10-00.00.14:796][ 84]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Engine/Blueprints/UserGuide/Types/ClassBlueprint/index.html?utm_source=editor&utm_medium=docs&utm_campaign=tutorials
+[2015.04.10-00.00.56:260][499]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP'
+[2015.04.10-00.01.00:387][624]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent'
+[2015.04.10-00.01.02:688][693]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Particles'
+[2015.04.10-00.01.04:816][759]LogMaterial: Missing cached shader map for material M_Radial_Gradient, compiling. 
+[2015.04.10-00.01.05:038][759]LogTexture:Display: Building textures: T_Smoke_SubUV (AutoDXT)
+[2015.04.10-00.01.09:012][759]LogTexture:Display: Building textures: T_Smoke_Tiled_D (AutoDXT)
+[2015.04.10-00.01.09:055][759]LogMaterial: Missing cached shader map for material M_smoke_subUV, compiling. 
+[2015.04.10-00.01.09:107][759]LogTexture:Display: Building textures: ThumbnailTexture (DXT1)
+[2015.04.10-00.01.12:579][835]LogEditorViewport: Clicking on Actor (LMB): Emitter (Particle1)
+[2015.04.10-00.01.15:231][899]LogEditorViewport: Clicking on Actor (context menu): Emitter (Particle1)
+[2015.04.10-00.01.22:531][296]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ParitclePlay'
+[2015.04.10-00.01.25:163][372]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ParitclePlay/ParticleSystems'
+[2015.04.10-00.01.27:903][539]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.04.10-00.01.27:903][539]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.10-00.01.33:116][613]LogEditorViewport: Clicking on Actor (context menu): Emitter (Particle1)
+[2015.04.10-00.01.37:892][852]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ParitclePlay/BluePrints'
+[2015.04.10-00.01.38:680][878]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ParitclePlay/ParticleSystems'
+[2015.04.10-00.01.39:235][898]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ParitclePlay/BluePrints'
+[2015.04.10-00.01.47:299][234]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ParitclePlay/ParticleSystems'
+[2015.04.10-00.01.54:029][409]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.10-00.01.58:757][532]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Particles'
+[2015.04.10-00.02.01:917][615]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Sparks)
+[2015.04.10-00.02.27:890][268]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube06)
+[2015.04.10-00.02.29:355][301]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube06)
+[2015.04.10-00.02.29:448][301]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2015.04.10-00.04.34:478][632]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.10-00.04.34:478][632]PIE: New page: PIE session: FirstPersonExampleMap (Apr 9, 2015, 4:04:34 PM)
+[2015.04.10-00.04.34:501][632]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022428s)
+[2015.04.10-00.04.34:502][632]LogPlayLevel: PIE: World Init took: (0.001019s)
+[2015.04.10-00.04.34:502][632]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.023726s)
+[2015.04.10-00.04.34:638][632]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.10-00.04.34:641][632]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.10-00.04.34:649][632]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.09-20.04.34
+[2015.04.10-00.04.34:650][632]LogWorld: Bringing up level for play took: 0.008496
+[2015.04.10-00.04.34:652][632]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.631
+[2015.04.10-00.04.46:715][ 22]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D0509E0AE0
+[2015.04.10-00.05.18:288][838]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.04.10-00.05.54:175][946]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.04.10-00.05.58:901][ 89]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.10-00.05.58:902][ 89]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Engine/EngineSky'
+[2015.04.10-00.06.36:976][206]Cmd: DELETE
+[2015.04.10-00.06.36:976][206]Cmd: ACTOR DELETE
+[2015.04.10-00.06.37:008][206]LogEditorActor: Deleted Actor: Emitter
+[2015.04.10-00.06.37:034][206]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2015.04.10-00.07.04:588][108]LogRenderer:Warning: Reallocating scene render targets to support 1616x1424 (Frame:11218).
+[2015.04.10-00.09.16:998][850]LogSavePackage: Save=2469.596924ms
+[2015.04.10-00.09.16:998][850]LogSavePackage: Moving 'D:/Tyler/Documents/GitHub/Games/Sandbox/ParticleSystemPlay/Particles/Saved/FirstPersonExampleMap_Auto1C1FB7A7B457389AC61A1DCA618A743AD.tmp' to 'D:/Tyler/Documents/GitHub/Games/Sandbox/ParticleSystemPlay/Particles/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2015.04.10-00.09.17:005][850]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 2.578
+[2015.04.10-00.09.17:005][850]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.578
+[2015.04.10-00.09.17:041][850]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Engine/EngineSky/BP_Sky_Sphere] ([1] browsable assets)...
+[2015.04.10-00.09.17:088][850]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere]
+[2015.04.10-00.09.17:088][850]OBJ SavePackage: Finished generating thumbnails for package [/Engine/EngineSky/BP_Sky_Sphere]
+[2015.04.10-00.09.17:684][850]LogSavePackage: Save=575.564697ms
+[2015.04.10-00.09.17:685][850]LogSavePackage: Moving 'D:/Tyler/Documents/GitHub/Games/Sandbox/ParticleSystemPlay/Particles/Saved/BP_Sky_Sphere_Auto1385466164353BCAAC3BBAB80AD6BE6BC.tmp' to 'D:/Tyler/Documents/GitHub/Games/Sandbox/ParticleSystemPlay/Particles/Saved/Autosaves/Engine/EngineSky/BP_Sky_Sphere_Auto1.uasset'
+[2015.04.10-00.09.17:724][850]LogFileHelpers: Auto-saving content packages took 0.719
+[2015.04.10-00.16.03:899][152]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube06)
+[2015.04.10-00.16.11:090][317]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Sparks)
+[2015.04.10-00.16.52:992][321]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube06)
+[2015.04.10-00.18.04:487][ 49]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube06)
+[2015.04.10-00.18.09:863][175]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.10-00.18.09:863][175]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Meshes'
+[2015.04.10-00.18.58:050][325]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.10-00.18.58:057][325]LogPlayLevel: [PIE] Compiling BP_Sky_Sphere before PIE...
+[2015.04.10-00.18.58:174][325]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.04.10-00.18.58:174][325]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2015.04.10-00.18.58:174][325]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
+[2015.04.10-00.18.58:196][325]LogPlayLevel: PIE:  Blueprint regeneration took 146 ms (1 blueprints)
+[2015.04.10-00.18.58:196][325]PIE: New page: PIE session: FirstPersonExampleMap (Apr 9, 2015, 4:18:58 PM)
+[2015.04.10-00.18.58:219][325]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022183s)
+[2015.04.10-00.18.58:220][325]LogPlayLevel: PIE: World Init took: (0.001092s)
+[2015.04.10-00.18.58:220][325]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.023541s)
+[2015.04.10-00.18.58:271][325]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.10-00.18.58:275][325]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.10-00.18.58:289][325]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.09-20.18.58
+[2015.04.10-00.18.58:290][325]LogWorld: Bringing up level for play took: 0.014384
+[2015.04.10-00.18.58:293][325]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.272
+[2015.04.10-00.18.58:352][328]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 411/400 MB (ok in editor, bad on fixed memory platform)
+[2015.04.10-00.19.14:896][863]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D0509828E0
+[2015.04.10-00.19.16:496][902]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Sparks)
+[2015.04.10-00.19.39:400][452]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.04.10-00.19.42:330][455]LogSavePackage: Save=2437.399658ms
+[2015.04.10-00.19.42:330][455]LogSavePackage: Moving 'D:/Tyler/Documents/GitHub/Games/Sandbox/ParticleSystemPlay/Particles/Saved/FirstPersonExampleMap_Auto27B5329D44100D36A8091B785D088F3AF.tmp' to 'D:/Tyler/Documents/GitHub/Games/Sandbox/ParticleSystemPlay/Particles/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap'
+[2015.04.10-00.19.42:349][455]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 2.577
+[2015.04.10-00.19.42:349][455]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.577
+[2015.04.10-00.19.42:393][455]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Engine/EngineSky/BP_Sky_Sphere] ([1] browsable assets)...
+[2015.04.10-00.19.42:393][455]OBJ SavePackage: Finished generating thumbnails for package [/Engine/EngineSky/BP_Sky_Sphere]
+[2015.04.10-00.19.42:909][455]LogSavePackage: Save=419.197083ms
+[2015.04.10-00.19.42:909][455]LogSavePackage: Moving 'D:/Tyler/Documents/GitHub/Games/Sandbox/ParticleSystemPlay/Particles/Saved/BP_Sky_Sphere_Auto2652B877048934781A7E9BAB1CB911DCD.tmp' to 'D:/Tyler/Documents/GitHub/Games/Sandbox/ParticleSystemPlay/Particles/Saved/Autosaves/Engine/EngineSky/BP_Sky_Sphere_Auto2.uasset'
+[2015.04.10-00.19.42:916][455]LogFileHelpers: Auto-saving content packages took 0.567
+[2015.04.10-00.19.57:026][800]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube06)
+[2015.04.10-00.20.07:043][ 32]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.10-00.20.07:044][ 32]PIE: New page: PIE session: FirstPersonExampleMap (Apr 9, 2015, 4:20:07 PM)
+[2015.04.10-00.20.07:100][ 32]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021642s)
+[2015.04.10-00.20.07:101][ 32]LogPlayLevel: PIE: World Init took: (0.000865s)
+[2015.04.10-00.20.07:101][ 32]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.022758s)
+[2015.04.10-00.20.07:166][ 32]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.10-00.20.07:168][ 32]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.10-00.20.07:176][ 32]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.09-20.20.07
+[2015.04.10-00.20.07:176][ 32]LogWorld: Bringing up level for play took: 0.008146
+[2015.04.10-00.20.07:178][ 32]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.843
+[2015.04.10-00.20.07:212][ 33]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 417/400 MB (ok in editor, bad on fixed memory platform)
+[2015.04.10-00.21.00:346][714]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D07F115E40
+[2015.04.10-00.21.47:038][729]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Architecture'
+[2015.04.10-00.21.58:527][  0]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TemplateLabel)
+[2015.04.10-00.22.00:385][ 44]LogEditorViewport: Clicking on Actor (context menu): TextRenderActor (TemplateLabel)
+[2015.04.10-00.22.04:564][141]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2015.04.10-00.22.06:262][180]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TemplateLabel)
+[2015.04.10-00.23.09:086][457]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TemplateLabel)
+[2015.04.10-00.23.25:125][785]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2015.04.10-00.23.28:587][867]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TemplateLabel)
+[2015.04.10-00.23.44:197][235]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.10-00.23.44:197][235]PIE: New page: PIE session: FirstPersonExampleMap (Apr 9, 2015, 4:23:44 PM)
+[2015.04.10-00.23.44:232][235]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021770s)
+[2015.04.10-00.23.44:233][235]LogPlayLevel: PIE: World Init took: (0.000824s)
+[2015.04.10-00.23.44:233][235]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.022804s)
+[2015.04.10-00.23.44:301][235]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.10-00.23.44:303][235]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.10-00.23.44:311][235]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.09-20.23.44
+[2015.04.10-00.23.44:312][235]LogWorld: Bringing up level for play took: 0.008252
+[2015.04.10-00.23.44:314][235]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.292
+[2015.04.10-00.24.09:010][ 30]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D07ED1CFE0
+[2015.04.10-00.24.24:869][398]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BigWall)
+[2015.04.10-00.24.26:066][423]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2015.04.10-00.24.38:168][683]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2015.04.10-00.24.48:734][948]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Textures'
+[2015.04.10-00.24.51:805][ 21]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2015.04.10-00.25.38:032][983]LogMaterial: Missing cached shader map for material M_Glass, compiling. 
+[2015.04.10-00.25.44:208][ 96]LogTexture:Display: Building textures: T_Concrete_Tiles_D (AutoDXT)
+[2015.04.10-00.25.48:475][ 96]LogTexture:Display: Building textures: T_Concrete_Tiles_M (AutoDXT)
+[2015.04.10-00.25.53:593][ 96]LogTexture:Display: Building textures: T_Concrete_Tiles_N (BC5)
+[2015.04.10-00.25.54:239][ 96]LogTexture:Display: Building textures: T_Concrete_Tiles_Variation_M (AutoDXT)
+[2015.04.10-00.25.54:284][ 96]LogMaterial: Missing cached shader map for material M_Concrete_Tiles, compiling. 
+[2015.04.10-00.26.09:455][387]LogMaterial: Missing cached shader map for material M_Concrete_Tiles, compiling. 
+[2015.04.10-00.26.09:501][387]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.04.10-00.26.09:551][387]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.04.10-00.26.09:551][387]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.04.10-00.26.09:565][387]LogMaterial: Missing cached shader map for material M_Concrete_Tiles, compiling. 
+[2015.04.10-00.26.09:572][387]LogMaterial: 0.000032 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.10-00.26.09:598][387]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_31, compiling. 
+[2015.04.10-00.26.09:602][387]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.04.10-00.26.09:606][387]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.04.10-00.26.09:610][387]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.04.10-00.26.09:614][387]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_29, compiling. 
+[2015.04.10-00.26.09:617][387]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.04.10-00.26.09:620][387]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2015.04.10-00.26.09:622][387]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.04.10-00.26.10:559][431]MaterialEditorStats: Info Base pass shader with static lighting: 102 instructions
+[2015.04.10-00.26.10:559][431]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
+[2015.04.10-00.26.10:559][431]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.04.10-00.26.10:559][431]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.04.10-00.27.45:724][992]LogTexture:Display: Building textures: T_Wood_Floor_Walnut_M (AutoDXT)
+[2015.04.10-00.27.51:358][992]LogTexture:Display: Building textures: T_Wood_Floor_Walnut_N (BC5)
+[2015.04.10-00.27.52:133][992]LogTexture:Display: Building textures: T_Wood_Floor_Walnut_D (AutoDXT)
+[2015.04.10-00.27.57:581][992]LogMaterial: Missing cached shader map for material M_Wood_Floor_Walnut_Worn, compiling. 
+[2015.04.10-00.28.14:093][243]LogMaterial: Missing cached shader map for material M_Wood_Floor_Walnut_Worn, compiling. 
+[2015.04.10-00.28.14:129][243]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.04.10-00.28.14:168][243]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.04.10-00.28.14:168][243]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2015.04.10-00.28.14:168][243]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.04.10-00.28.14:168][243]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2015.04.10-00.28.14:178][243]LogMaterial: Missing cached shader map for material M_Wood_Floor_Walnut_Worn, compiling. 
+[2015.04.10-00.28.14:185][243]LogMaterial: 0.000042 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.04.10-00.28.14:214][243]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.04.10-00.28.14:218][243]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.04.10-00.28.14:222][243]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.04.10-00.28.14:226][243]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_32, compiling. 
+[2015.04.10-00.28.14:231][243]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_33, compiling. 
+[2015.04.10-00.28.14:235][243]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_34, compiling. 
+[2015.04.10-00.28.15:112][289]MaterialEditorStats: Info Base pass shader with static lighting: 96 instructions
+[2015.04.10-00.28.15:112][289]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 63 instructions
+[2015.04.10-00.28.15:112][289]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.04.10-00.28.15:112][289]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.04.10-00.29.13:423][477]LogTexture:Display: Building textures: T_Ceramic_Tile_M (DXT1)
+[2015.04.10-00.29.14:510][477]LogTexture:Display: Building textures: T_Ceramic_Tile_N (BC5)
+[2015.04.10-00.29.15:313][477]LogTexture:Display: Building textures: T_Rock_Marble_Polished_D (AutoDXT)
+[2015.04.10-00.29.18:584][477]LogMaterial: Missing cached shader map for material M_Ceramic_Tile_Checker, compiling. 
+[2015.04.10-00.29.52:784][999]LogTexture:Display: Building textures: T_Metal_Rust_D (AutoDXT)
+[2015.04.10-00.29.58:865][999]LogTexture:Display: Building textures: T_Metal_Rust_N (BC5)
+[2015.04.10-00.29.59:521][999]LogMaterial: Missing cached shader map for material M_Metal_Rust, compiling. 
+[2015.04.10-00.30.10:642][232]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall9)
+[2015.04.10-00.30.21:093][412]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1)
+[2015.04.10-00.30.26:367][510]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall8)
+[2015.04.10-00.30.34:360][666]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube03)
+[2015.04.10-00.30.40:290][763]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube02)
+[2015.04.10-00.30.45:573][852]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube03)
+[2015.04.10-00.30.58:336][101]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube01)
+[2015.04.10-00.31.01:101][155]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D00A5789A0
+[2015.04.10-00.31.01:101][155]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D005C20360
+[2015.04.10-00.31.03:600][155]LogSavePackage: Save=2421.013184ms
+[2015.04.10-00.31.03:600][155]LogSavePackage: Moving 'D:/Tyler/Documents/GitHub/Games/Sandbox/ParticleSystemPlay/Particles/Saved/FirstPersonExampleMap_Auto34ABDDAC542655358A41606BFC5512B68.tmp' to 'D:/Tyler/Documents/GitHub/Games/Sandbox/ParticleSystemPlay/Particles/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto3.umap'
+[2015.04.10-00.31.03:619][155]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 2.538
+[2015.04.10-00.31.03:619][155]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.538
+[2015.04.10-00.31.05:936][206]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.10-00.31.05:936][206]PIE: New page: PIE session: FirstPersonExampleMap (Apr 9, 2015, 4:31:05 PM)
+[2015.04.10-00.31.06:000][206]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026091s)
+[2015.04.10-00.31.06:001][206]LogPlayLevel: PIE: World Init took: (0.000838s)
+[2015.04.10-00.31.06:001][206]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.027146s)
+[2015.04.10-00.31.06:085][206]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.10-00.31.06:089][206]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.10-00.31.06:099][206]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.09-20.31.06
+[2015.04.10-00.31.06:100][206]LogWorld: Bringing up level for play took: 0.010181
+[2015.04.10-00.31.06:101][206]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.08
+[2015.04.10-00.31.27:538][867]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D005EEDDA0
+[2015.04.10-00.31.35:372][ 49]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube06)
+[2015.04.10-00.31.42:242][180]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2015.04.10-00.32.00:628][588]LogTexture:Display: Building textures: T_Metal_Steel_D (AutoDXT)
+[2015.04.10-00.32.04:246][588]LogTexture:Display: Building textures: T_Metal_Steel_N (BC5)
+[2015.04.10-00.32.04:937][588]LogMaterial: Missing cached shader map for material M_Metal_Steel, compiling. 
+[2015.04.10-00.32.31:677][ 88]LogMaterial: Missing cached shader map for material M_Rock_Marble_Polished, compiling. 
+[2015.04.10-00.32.44:929][299]LogTexture:Display: Building textures: T_Metal_Aluminum_D (AutoDXT)
+[2015.04.10-00.32.50:559][299]LogMaterial: Missing cached shader map for material M_Metal_Burnished_Steel, compiling. 
+[2015.04.10-00.32.57:913][456]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube06)
+[2015.04.10-00.33.21:947][949]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.04.10-00.33.36:920][296]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Particles'
+[2015.04.10-00.33.47:803][552]LogTexture:Display: Building textures: T_Fire_SubUV (AutoDXT)
+[2015.04.10-00.33.48:208][552]LogTexture:Display: Building textures: T_Fire_Tiled_D (AutoDXT)
+[2015.04.10-00.33.48:537][552]LogMaterial: Missing cached shader map for material M_Fire_SubUV, compiling. 
+[2015.04.10-00.33.48:638][552]LogTexture:Display: Building textures: T_Water_N (BC5)
+[2015.04.10-00.33.49:326][552]LogMaterial: Missing cached shader map for material M_Heat_Distortion, compiling. 
+[2015.04.10-00.33.49:359][552]LogTexture:Display: Building textures: ThumbnailTexture (DXT1)
+[2015.04.10-00.34.13:244][ 53]LogTexture:Display: Building textures: ThumbnailTexture (DXT1)
+[2015.04.10-00.34.22:396][241]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2015.04.10-00.34.25:499][305]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.10-00.34.25:499][305]PIE: New page: PIE session: FirstPersonExampleMap (Apr 9, 2015, 4:34:25 PM)
+[2015.04.10-00.34.25:562][305]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026701s)
+[2015.04.10-00.34.25:563][305]LogPlayLevel: PIE: World Init took: (0.000914s)
+[2015.04.10-00.34.25:563][305]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.027853s)
+[2015.04.10-00.34.25:629][305]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.10-00.34.25:631][305]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.10-00.34.25:640][305]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.09-20.34.25
+[2015.04.10-00.34.25:641][305]LogWorld: Bringing up level for play took: 0.009477
+[2015.04.10-00.34.25:643][305]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.378
+[2015.04.10-00.34.54:135][101]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D04E310EA0
+[2015.04.10-00.35.03:187][290]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TemplateLabel)
+[2015.04.10-00.35.37:767][916]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2015.04.10-00.35.37:997][919]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 409/400 MB (ok in editor, bad on fixed memory platform)
+[2015.04.10-00.36.05:163][383]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2015.04.10-00.36.15:558][576]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 409/400 MB (ok in editor, bad on fixed memory platform)
+[2015.04.10-00.36.38:244][992]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.10-00.36.38:244][992]PIE: New page: PIE session: FirstPersonExampleMap (Apr 9, 2015, 4:36:38 PM)
+[2015.04.10-00.36.38:316][992]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027233s)
+[2015.04.10-00.36.38:317][992]LogPlayLevel: PIE: World Init took: (0.000882s)
+[2015.04.10-00.36.38:317][992]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.028351s)
+[2015.04.10-00.36.38:431][992]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.10-00.36.38:435][992]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.10-00.36.38:444][992]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.09-20.36.38
+[2015.04.10-00.36.38:445][992]LogWorld: Bringing up level for play took: 0.009382
+[2015.04.10-00.36.38:446][992]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.425
+[2015.04.10-00.37.27:508][399]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D00BDE0180
+[2015.04.10-00.37.27:661][402]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 409/400 MB (ok in editor, bad on fixed memory platform)
+[2015.04.10-00.37.30:915][459]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube01)
+[2015.04.10-00.37.35:144][553]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube01)
+[2015.04.10-00.37.36:253][576]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.10-00.37.36:254][576]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Meshes'
+[2015.04.10-00.38.01:817][ 24]LogContentBrowser: Native class hierarchy updated for 'DestructibleMeshEditor' in 0.0069 seconds. Added 1 classes and 2 folders.
+[2015.04.10-00.38.01:828][ 24]LogDestructible:Warning: MainMesh Tris: 108
+[2015.04.10-00.38.01:919][ 24]LogApexDestructibleAssetImport:Warning: Using default materials for material slot
+[2015.04.10-00.38.01:921][ 24]LogApexDestructibleAssetImport:Warning: Bones digested - 2  Depth of hierarchy - 2
+[2015.04.10-00.38.02:001][ 24]LogSkeletalMesh: Chunk 0: 96 rigid vertices, 0 soft vertices, 1 active bones
+[2015.04.10-00.38.02:003][ 24]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 108 triangles
+[2015.04.10-00.38.02:145][ 24]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.10-00.38.02:145][ 24]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Meshes'
+[2015.04.10-00.38.04:428][ 59]LogRenderer:Warning: Reallocating scene render targets to support 1616x1448 (Frame:58591).
+[2015.04.10-00.38.12:386][906]LogDestructible:Warning: MainMesh Tris: 108
+[2015.04.10-00.38.12:514][906]LogApexDestructibleAssetImport:Warning: Using default materials for material slot
+[2015.04.10-00.38.12:514][906]LogApexDestructibleAssetImport:Warning: Bones digested - 27  Depth of hierarchy - 2
+[2015.04.10-00.38.12:560][906]LogSkeletalMesh: Chunk 0: 624 rigid vertices, 0 soft vertices, 21 active bones
+[2015.04.10-00.38.12:560][906]LogSkeletalMesh: Chunk 1: 1084 rigid vertices, 0 soft vertices, 25 active bones
+[2015.04.10-00.38.12:562][906]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 562 triangles
+[2015.04.10-00.38.12:562][906]LogSkeletalMesh: Section 1: Material=1, Chunk=1, 672 triangles
+[2015.04.10-00.38.22:080][782]LogSavePackage: Save=314.803436ms
+[2015.04.10-00.38.22:080][782]LogSavePackage: Moving 'D:/Tyler/Documents/GitHub/Games/Sandbox/ParticleSystemPlay/Particles/Saved/testDestruction_DM224C82D54CB63CAC291D13B70193AC36.tmp' to 'D:/Tyler/Documents/GitHub/Games/Sandbox/ParticleSystemPlay/Particles/Content/FirstPersonBP/Meshes/testDestruction_DM.uasset'
+[2015.04.10-00.38.24:670][ 77]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2015.04.10-00.38.34:409][282]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.10-00.38.34:410][282]PIE: New page: PIE session: FirstPersonExampleMap (Apr 9, 2015, 4:38:34 PM)
+[2015.04.10-00.38.34:473][282]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028732s)
+[2015.04.10-00.38.34:474][282]LogPlayLevel: PIE: World Init took: (0.000863s)
+[2015.04.10-00.38.34:474][282]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.029811s)
+[2015.04.10-00.38.34:561][282]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.10-00.38.34:565][282]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.10-00.38.34:574][282]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.09-20.38.34
+[2015.04.10-00.38.34:575][282]LogWorld: Bringing up level for play took: 0.009375
+[2015.04.10-00.38.34:576][282]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.555
+[2015.04.10-00.38.38:155][391]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D0060D3D80
+[2015.04.10-00.38.38:210][392]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D00BC96C00
+[2015.04.10-00.38.50:676][676]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.10-00.38.50:676][676]PIE: New page: PIE session: FirstPersonExampleMap (Apr 9, 2015, 4:38:50 PM)
+[2015.04.10-00.38.50:738][676]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027979s)
+[2015.04.10-00.38.50:738][676]LogPlayLevel: PIE: World Init took: (0.000824s)
+[2015.04.10-00.38.50:739][676]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.029023s)
+[2015.04.10-00.38.50:802][676]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.10-00.38.50:804][676]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.10-00.38.50:813][676]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.09-20.38.50
+[2015.04.10-00.38.50:814][676]LogWorld: Bringing up level for play took: 0.009374
+[2015.04.10-00.38.50:816][676]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.795
+[2015.04.10-00.38.50:850][677]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 422/400 MB (ok in editor, bad on fixed memory platform)
+[2015.04.10-00.39.01:903][ 20]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D00BDE3E20
+[2015.04.10-00.39.07:462][335]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2015.04.10-00.39.13:690][449]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube01)
+[2015.04.10-00.39.21:611][635]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube01)
+[2015.04.10-00.39.24:371][697]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.10-00.39.24:371][697]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/FirstPersonBP/Meshes'
+[2015.04.10-00.39.33:056][  4]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 408/400 MB (ok in editor, bad on fixed memory platform)
+[2015.04.10-00.40.25:147][  3]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.10-00.40.25:147][  3]PIE: New page: PIE session: FirstPersonExampleMap (Apr 9, 2015, 4:40:25 PM)
+[2015.04.10-00.40.25:210][  3]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028144s)
+[2015.04.10-00.40.25:211][  3]LogPlayLevel: PIE: World Init took: (0.001092s)
+[2015.04.10-00.40.25:211][  3]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.029464s)
+[2015.04.10-00.40.25:291][  3]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.10-00.40.25:295][  3]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.10-00.40.25:343][  3]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.09-20.40.25
+[2015.04.10-00.40.25:344][  3]LogWorld: Bringing up level for play took: 0.048607
+[2015.04.10-00.40.25:346][  3]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.676
+[2015.04.10-00.40.38:246][426]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D04E311120
+[2015.04.10-00.40.38:247][426]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D0546E1E40
+[2015.04.10-00.40.38:304][427]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D009F223E0
+[2015.04.10-00.40.43:534][547]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (testDestruction_DM)
+[2015.04.10-00.40.43:635][547]LogEditorViewport: Clicking on Component (LMB): DestructibleComponent (DestructibleComponent0)
+[2015.04.10-00.40.44:723][572]LogEditorViewport: Clicking on Component (context menu): DestructibleComponent (DestructibleComponent0)
+[2015.04.10-00.40.58:843][302]LogDestructible:Warning: MainMesh Tris: 108
+[2015.04.10-00.40.58:971][302]LogApexDestructibleAssetImport:Warning: Using default materials for material slot
+[2015.04.10-00.40.58:971][302]LogApexDestructibleAssetImport:Warning: Bones digested - 27  Depth of hierarchy - 2
+[2015.04.10-00.40.59:021][302]LogSkeletalMesh: Chunk 0: 624 rigid vertices, 0 soft vertices, 21 active bones
+[2015.04.10-00.40.59:021][302]LogSkeletalMesh: Chunk 1: 1084 rigid vertices, 0 soft vertices, 25 active bones
+[2015.04.10-00.40.59:024][302]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 562 triangles
+[2015.04.10-00.40.59:024][302]LogSkeletalMesh: Section 1: Material=1, Chunk=1, 672 triangles
+[2015.04.10-00.41.07:763][289]LogDestructible:Warning: MainMesh Tris: 108
+[2015.04.10-00.41.07:890][289]LogApexDestructibleAssetImport:Warning: Using default materials for material slot
+[2015.04.10-00.41.07:890][289]LogApexDestructibleAssetImport:Warning: Bones digested - 27  Depth of hierarchy - 2
+[2015.04.10-00.41.07:942][289]LogSkeletalMesh: Chunk 0: 624 rigid vertices, 0 soft vertices, 21 active bones
+[2015.04.10-00.41.07:942][289]LogSkeletalMesh: Chunk 1: 1084 rigid vertices, 0 soft vertices, 25 active bones
+[2015.04.10-00.41.07:944][289]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 562 triangles
+[2015.04.10-00.41.07:944][289]LogSkeletalMesh: Section 1: Material=1, Chunk=1, 672 triangles
+[2015.04.10-00.41.09:510][475]LogDestructible:Warning: MainMesh Tris: 108
+[2015.04.10-00.41.09:638][475]LogApexDestructibleAssetImport:Warning: Using default materials for material slot
+[2015.04.10-00.41.09:638][475]LogApexDestructibleAssetImport:Warning: Bones digested - 27  Depth of hierarchy - 2
+[2015.04.10-00.41.09:692][475]LogSkeletalMesh: Chunk 0: 624 rigid vertices, 0 soft vertices, 21 active bones
+[2015.04.10-00.41.09:692][475]LogSkeletalMesh: Chunk 1: 1084 rigid vertices, 0 soft vertices, 25 active bones
+[2015.04.10-00.41.09:694][475]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 562 triangles
+[2015.04.10-00.41.09:694][475]LogSkeletalMesh: Section 1: Material=1, Chunk=1, 672 triangles
+[2015.04.10-00.41.28:941][430]LogSavePackage: Save=317.032593ms
+[2015.04.10-00.41.28:941][430]LogSavePackage: Moving 'D:/Tyler/Documents/GitHub/Games/Sandbox/ParticleSystemPlay/Particles/Saved/testDestruction_DM507503E344BA10C98496AFAA24C6599F.tmp' to 'D:/Tyler/Documents/GitHub/Games/Sandbox/ParticleSystemPlay/Particles/Content/FirstPersonBP/Meshes/testDestruction_DM.uasset'
+[2015.04.10-00.41.47:422][248]LogSavePackage: Save=299.953705ms
+[2015.04.10-00.41.47:422][248]LogSavePackage: Moving 'D:/Tyler/Documents/GitHub/Games/Sandbox/ParticleSystemPlay/Particles/Saved/testDestruction_DMCCBEADE849054E4B9C8ADEB965B5BF1A.tmp' to 'D:/Tyler/Documents/GitHub/Games/Sandbox/ParticleSystemPlay/Particles/Content/FirstPersonBP/Meshes/testDestruction_DM.uasset'
+[2015.04.10-00.41.49:822][434]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 421/400 MB (ok in editor, bad on fixed memory platform)
+[2015.04.10-00.41.52:777][434]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.10-00.41.52:777][434]PIE: New page: PIE session: FirstPersonExampleMap (Apr 9, 2015, 4:41:52 PM)
+[2015.04.10-00.41.52:807][434]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029487s)
+[2015.04.10-00.41.52:808][434]LogPlayLevel: PIE: World Init took: (0.000956s)
+[2015.04.10-00.41.52:809][434]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.030699s)
+[2015.04.10-00.41.52:852][434]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.10-00.41.52:854][434]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.10-00.41.52:885][434]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.09-20.41.52
+[2015.04.10-00.41.52:886][434]LogWorld: Bringing up level for play took: 0.031562
+[2015.04.10-00.41.52:888][434]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.866
+[2015.04.10-00.42.04:951][510]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D04E310AE0
+[2015.04.10-00.42.05:019][511]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 422/400 MB (ok in editor, bad on fixed memory platform)
+[2015.04.10-00.42.06:305][541]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube01)
+[2015.04.10-00.42.18:492][752]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (testDestruction_DM)
+[2015.04.10-00.42.29:684][966]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube01)
+[2015.04.10-00.42.40:758][166]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (testDestruction_DM)
+[2015.04.10-00.42.42:062][195]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube01)
+[2015.04.10-00.42.45:433][269]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (testDestruction_DM)
+[2015.04.10-00.42.47:427][314]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube01)
+[2015.04.10-00.42.53:319][419]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (testDestruction_DM)
+[2015.04.10-00.43.00:389][558]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube01)
+[2015.04.10-00.43.18:962][921]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (testDestruction_DM)
+[2015.04.10-00.43.28:468][ 33]LogSavePackage: Save=2400.098877ms
+[2015.04.10-00.43.28:468][ 33]LogSavePackage: Moving 'D:/Tyler/Documents/GitHub/Games/Sandbox/ParticleSystemPlay/Particles/Saved/FirstPersonExampleMap_Auto4F68F45D142516394B5055FA25E1C5F2B.tmp' to 'D:/Tyler/Documents/GitHub/Games/Sandbox/ParticleSystemPlay/Particles/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto4.umap'
+[2015.04.10-00.43.28:474][ 33]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 2.510
+[2015.04.10-00.43.28:474][ 33]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.510
+[2015.04.10-00.43.28:511][ 33]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Meshes/testDestruction] ([1] browsable assets)...
+[2015.04.10-00.43.28:554][ 33]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/FirstPersonBP/Meshes/testDestruction.testDestruction]
+[2015.04.10-00.43.28:554][ 33]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Meshes/testDestruction]
+[2015.04.10-00.43.28:964][ 33]LogSavePackage: Save=405.035980ms
+[2015.04.10-00.43.28:965][ 33]LogSavePackage: Moving 'D:/Tyler/Documents/GitHub/Games/Sandbox/ParticleSystemPlay/Particles/Saved/testDestruction_Auto44E7FED6E4AB2F8B380A0E0A77A8A6D4E.tmp' to 'D:/Tyler/Documents/GitHub/Games/Sandbox/ParticleSystemPlay/Particles/Saved/Autosaves/Game/FirstPersonBP/Meshes/testDestruction_Auto4.uasset'
+[2015.04.10-00.43.28:969][ 33]LogFileHelpers: Auto-saving content packages took 0.495
+[2015.04.10-00.43.34:977][146]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.10-00.43.34:977][146]PIE: New page: PIE session: FirstPersonExampleMap (Apr 9, 2015, 4:43:34 PM)
+[2015.04.10-00.43.35:036][146]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028078s)
+[2015.04.10-00.43.35:037][146]LogPlayLevel: PIE: World Init took: (0.000938s)
+[2015.04.10-00.43.35:037][146]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.029237s)
+[2015.04.10-00.43.35:095][146]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.10-00.43.35:097][146]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.10-00.43.35:107][146]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.09-20.43.35
+[2015.04.10-00.43.35:108][146]LogWorld: Bringing up level for play took: 0.009856
+[2015.04.10-00.43.35:110][146]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.088
+[2015.04.10-00.43.45:235][426]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D007C093A0
+[2015.04.10-00.43.45:352][427]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 422/400 MB (ok in editor, bad on fixed memory platform)
+[2015.04.10-00.44.00:451][734]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube01)
+[2015.04.10-00.44.15:681][996]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (testDestruction_DM)
+[2015.04.10-00.44.21:338][ 88]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube01)
+[2015.04.10-00.44.24:810][146]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (testDestruction_DM)
+[2015.04.10-00.44.30:033][227]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.10-00.44.30:033][227]PIE: New page: PIE session: FirstPersonExampleMap (Apr 9, 2015, 4:44:30 PM)
+[2015.04.10-00.44.30:096][227]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026340s)
+[2015.04.10-00.44.30:097][227]LogPlayLevel: PIE: World Init took: (0.000880s)
+[2015.04.10-00.44.30:097][227]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.027434s)
+[2015.04.10-00.44.30:176][227]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.10-00.44.30:178][227]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.10-00.44.30:187][227]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.09-20.44.30
+[2015.04.10-00.44.30:188][227]LogWorld: Bringing up level for play took: 0.009690
+[2015.04.10-00.44.30:190][227]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.168
+[2015.04.10-00.44.39:251][479]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D00B897BA0
+[2015.04.10-00.44.39:323][480]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 422/400 MB (ok in editor, bad on fixed memory platform)
+[2015.04.10-00.44.45:426][617]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (testDestruction_DM)
+[2015.04.10-00.45.04:827][ 80]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.10-00.45.04:827][ 80]PIE: New page: PIE session: FirstPersonExampleMap (Apr 9, 2015, 4:45:04 PM)
+[2015.04.10-00.45.04:885][ 80]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027285s)
+[2015.04.10-00.45.04:886][ 80]LogPlayLevel: PIE: World Init took: (0.000934s)
+[2015.04.10-00.45.04:886][ 80]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.028442s)
+[2015.04.10-00.45.04:946][ 80]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.10-00.45.04:948][ 80]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.10-00.45.04:980][ 80]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.09-20.45.04
+[2015.04.10-00.45.04:981][ 80]LogWorld: Bringing up level for play took: 0.031807
+[2015.04.10-00.45.04:982][ 80]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.961
+[2015.04.10-00.45.24:439][692]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D00618C900
+[2015.04.10-00.45.24:506][693]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 422/400 MB (ok in editor, bad on fixed memory platform)
+[2015.04.10-00.45.36:119][965]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube01)
+[2015.04.10-00.45.40:043][ 43]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (testDestruction_DM)
+[2015.04.10-00.45.59:821][388]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.10-00.45.59:821][388]PIE: New page: PIE session: FirstPersonExampleMap (Apr 9, 2015, 4:45:59 PM)
+[2015.04.10-00.45.59:876][388]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026956s)
+[2015.04.10-00.45.59:877][388]LogPlayLevel: PIE: World Init took: (0.000845s)
+[2015.04.10-00.45.59:877][388]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.028019s)
+[2015.04.10-00.45.59:937][388]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.10-00.45.59:939][388]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.10-00.45.59:949][388]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.09-20.45.59
+[2015.04.10-00.45.59:950][388]LogWorld: Bringing up level for play took: 0.009871
+[2015.04.10-00.45.59:951][388]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.07
+[2015.04.10-00.46.17:781][914]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D04CA2F920
+[2015.04.10-00.46.17:856][915]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 422/400 MB (ok in editor, bad on fixed memory platform)
+[2015.04.10-00.48.47:108][741]LogSavePackage: Save=345.142578ms
+[2015.04.10-00.48.47:108][741]LogSavePackage: Moving 'D:/Tyler/Documents/GitHub/Games/Sandbox/ParticleSystemPlay/Particles/Saved/testDestruction_DME151C45242FD53A6007050B982D98F78.tmp' to 'D:/Tyler/Documents/GitHub/Games/Sandbox/ParticleSystemPlay/Particles/Content/FirstPersonBP/Meshes/testDestruction_DM.uasset'
+[2015.04.10-00.48.49:664][ 34]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 421/400 MB (ok in editor, bad on fixed memory platform)
+[2015.04.10-00.48.54:281][128]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.10-00.48.54:281][128]PIE: New page: PIE session: FirstPersonExampleMap (Apr 9, 2015, 4:48:54 PM)
+[2015.04.10-00.48.54:343][128]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027614s)
+[2015.04.10-00.48.54:344][128]LogPlayLevel: PIE: World Init took: (0.000887s)
+[2015.04.10-00.48.54:344][128]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.028715s)
+[2015.04.10-00.48.54:409][128]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.10-00.48.54:411][128]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.10-00.48.54:420][128]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.09-20.48.54
+[2015.04.10-00.48.54:421][128]LogWorld: Bringing up level for play took: 0.009896
+[2015.04.10-00.48.54:423][128]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.401
+[2015.04.10-00.49.11:936][675]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D009D00CC0
+[2015.04.10-00.49.11:936][675]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D07ED1D4E0
+[2015.04.10-00.49.17:666][806]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (testDestruction_DM)
+[2015.04.10-00.49.52:221][469]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube01)
+[2015.04.10-00.50.04:811][718]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (testDestruction_DM)
+[2015.04.10-00.50.14:799][954]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 438/400 MB (ok in editor, bad on fixed memory platform)
+[2015.04.10-00.51.31:218][962]LogApexDestructibleAssetImport:Warning: Using default materials for material slot
+[2015.04.10-00.51.31:218][962]LogApexDestructibleAssetImport:Warning: Bones digested - 27  Depth of hierarchy - 2
+[2015.04.10-00.51.31:268][962]LogSkeletalMesh: Chunk 0: 624 rigid vertices, 0 soft vertices, 21 active bones
+[2015.04.10-00.51.31:268][962]LogSkeletalMesh: Chunk 1: 1084 rigid vertices, 0 soft vertices, 25 active bones
+[2015.04.10-00.51.31:270][962]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 562 triangles
+[2015.04.10-00.51.31:270][962]LogSkeletalMesh: Section 1: Material=1, Chunk=1, 672 triangles
+[2015.04.10-00.51.31:383][962]LogApexDestructibleAssetImport:Warning: Using default materials for material slot
+[2015.04.10-00.51.31:383][962]LogApexDestructibleAssetImport:Warning: Bones digested - 27  Depth of hierarchy - 2
+[2015.04.10-00.51.31:420][962]LogSkeletalMesh: Chunk 0: 624 rigid vertices, 0 soft vertices, 21 active bones
+[2015.04.10-00.51.31:420][962]LogSkeletalMesh: Chunk 1: 1084 rigid vertices, 0 soft vertices, 25 active bones
+[2015.04.10-00.51.31:429][962]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 562 triangles
+[2015.04.10-00.51.31:429][962]LogSkeletalMesh: Section 1: Material=1, Chunk=1, 672 triangles
+[2015.04.10-00.51.43:578][350]LogSavePackage: Save=310.738281ms
+[2015.04.10-00.51.43:578][350]LogSavePackage: Moving 'D:/Tyler/Documents/GitHub/Games/Sandbox/ParticleSystemPlay/Particles/Saved/testDestruction_DM429E295345FF18CFF3C181A8136C35D7.tmp' to 'D:/Tyler/Documents/GitHub/Games/Sandbox/ParticleSystemPlay/Particles/Content/FirstPersonBP/Meshes/testDestruction_DM.uasset'
+[2015.04.10-00.51.49:730][ 70]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2015.04.10-00.51.51:841][115]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2015.04.10-00.52.25:766][769]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 426/400 MB (ok in editor, bad on fixed memory platform)
+[2015.04.10-00.54.16:906][351]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (testDestruction_DM)
+[2015.04.10-00.54.16:947][351]LogEditorViewport: Clicking on Component (LMB): DestructibleComponent (DestructibleComponent0)
+[2015.04.10-00.54.17:043][354]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 406/400 MB (ok in editor, bad on fixed memory platform)
+[2015.04.10-00.54.58:560][308]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D00A019B20
+[2015.04.10-00.54.58:560][308]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D04E313060
+[2015.04.10-00.55.01:041][308]LogSavePackage: Save=2398.978516ms
+[2015.04.10-00.55.01:041][308]LogSavePackage: Moving 'D:/Tyler/Documents/GitHub/Games/Sandbox/ParticleSystemPlay/Particles/Saved/FirstPersonExampleMap_Auto5476A61944A5A5CB1B772659E16C28A6C.tmp' to 'D:/Tyler/Documents/GitHub/Games/Sandbox/ParticleSystemPlay/Particles/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto5.umap'
+[2015.04.10-00.55.01:045][308]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 2.505
+[2015.04.10-00.55.01:045][308]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.505
+[2015.04.10-00.55.01:950][403]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2015.04.10-00.55.05:999][481]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2015.04.10-00.55.10:486][535]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Particles'
+[2015.04.10-00.55.12:575][572]LogMaterial: Missing cached shader map for material m_flare_01, compiling. 
+[2015.04.10-00.55.12:584][572]LogMaterial: Missing cached shader map for material M_radial_ramp, compiling. 
+[2015.04.10-00.55.12:608][572]LogTexture:Display: Building textures: ThumbnailTexture (DXT1)
+[2015.04.10-00.55.15:455][618]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 401/400 MB (ok in editor, bad on fixed memory platform)
+[2015.04.10-00.55.17:963][666]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.10-00.55.17:963][666]PIE: New page: PIE session: FirstPersonExampleMap (Apr 9, 2015, 4:55:17 PM)
+[2015.04.10-00.55.18:027][666]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027873s)
+[2015.04.10-00.55.18:028][666]LogPlayLevel: PIE: World Init took: (0.001010s)
+[2015.04.10-00.55.18:028][666]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.029127s)
+[2015.04.10-00.55.18:100][666]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.10-00.55.18:102][666]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.10-00.55.18:137][666]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.09-20.55.18
+[2015.04.10-00.55.18:138][666]LogWorld: Bringing up level for play took: 0.034631
+[2015.04.10-00.55.18:139][666]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.118
+[2015.04.10-00.55.18:173][667]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 407/400 MB (ok in editor, bad on fixed memory platform)
+[2015.04.10-00.55.18:375][672]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 409/400 MB (ok in editor, bad on fixed memory platform)
+[2015.04.10-00.55.39:328][252]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D00618E520
+[2015.04.10-00.55.39:328][252]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D007C087C0
+[2015.04.10-00.55.50:028][477]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.10-00.55.50:028][477]PIE: New page: PIE session: FirstPersonExampleMap (Apr 9, 2015, 4:55:50 PM)
+[2015.04.10-00.55.50:090][477]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026879s)
+[2015.04.10-00.55.50:091][477]LogPlayLevel: PIE: World Init took: (0.000846s)
+[2015.04.10-00.55.50:091][477]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.027937s)
+[2015.04.10-00.55.50:155][477]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.10-00.55.50:157][477]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.10-00.55.50:167][477]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.09-20.55.50
+[2015.04.10-00.55.50:168][477]LogWorld: Bringing up level for play took: 0.010184
+[2015.04.10-00.55.50:169][477]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.148
+[2015.04.10-00.55.50:206][478]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 403/400 MB (ok in editor, bad on fixed memory platform)
+[2015.04.10-00.56.00:949][777]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D07ED1ED40
+[2015.04.10-00.56.08:507][932]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter)
+[2015.04.10-00.56.08:755][935]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 413/400 MB (ok in editor, bad on fixed memory platform)
+[2015.04.10-00.56.22:537][146]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.10-00.56.22:538][146]PIE: New page: PIE session: FirstPersonExampleMap (Apr 9, 2015, 4:56:22 PM)
+[2015.04.10-00.56.22:579][146]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027394s)
+[2015.04.10-00.56.22:580][146]LogPlayLevel: PIE: World Init took: (0.000835s)
+[2015.04.10-00.56.22:580][146]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.028445s)
+[2015.04.10-00.56.22:700][146]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.10-00.56.22:703][146]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.10-00.56.22:719][146]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.09-20.56.22
+[2015.04.10-00.56.22:720][146]LogWorld: Bringing up level for play took: 0.015928
+[2015.04.10-00.56.22:722][146]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.701
+[2015.04.10-00.56.28:039][302]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 403/400 MB (ok in editor, bad on fixed memory platform)
+[2015.04.10-00.56.31:949][407]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D0082734C0
+[2015.04.10-00.56.32:099][410]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 413/400 MB (ok in editor, bad on fixed memory platform)
+[2015.04.10-00.56.36:930][490]Cmd: SELECT NONE
+[2015.04.10-00.56.42:371][605]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 403/400 MB (ok in editor, bad on fixed memory platform)
+[2015.04.10-00.56.42:807][613]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 403/400 MB (ok in editor, bad on fixed memory platform)
+[2015.04.10-00.56.43:081][618]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 403/400 MB (ok in editor, bad on fixed memory platform)
+[2015.04.10-00.56.43:441][627]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Explosion)
+[2015.04.10-00.56.43:599][628]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 403/400 MB (ok in editor, bad on fixed memory platform)
+[2015.04.10-00.56.43:827][631]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 404/400 MB (ok in editor, bad on fixed memory platform)
+[2015.04.10-00.57.33:488][415]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 403/400 MB (ok in editor, bad on fixed memory platform)
+[2015.04.10-00.57.34:637][440]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.04.10-00.57.34:637][440]PIE: New page: PIE session: FirstPersonExampleMap (Apr 9, 2015, 4:57:34 PM)
+[2015.04.10-00.57.34:701][440]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028272s)
+[2015.04.10-00.57.34:702][440]LogPlayLevel: PIE: World Init took: (0.000898s)
+[2015.04.10-00.57.34:702][440]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.029393s)
+[2015.04.10-00.57.34:769][440]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.10-00.57.34:771][440]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.10-00.57.34:781][440]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.09-20.57.34
+[2015.04.10-00.57.34:782][440]LogWorld: Bringing up level for play took: 0.010297
+[2015.04.10-00.57.34:783][440]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.762
+[2015.04.10-00.57.34:819][441]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 403/400 MB (ok in editor, bad on fixed memory platform)
+[2015.04.10-00.57.37:931][525]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D005EED080
+[2015.04.10-00.57.38:614][539]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 403/400 MB (ok in editor, bad on fixed memory platform)
+[2015.04.10-00.58.36:604][405]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Particles/Materials'
+[2015.04.10-00.58.45:029][547]Cmd: SELECT NONE
+[2015.04.10-00.58.45:879][563]Cmd: SELECT NONE
+[2015.04.10-00.58.45:895][564]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 403/400 MB (ok in editor, bad on fixed memory platform)
+[2015.04.10-00.58.56:539][736]LogSavePackage: Save=2406.885986ms
+[2015.04.10-00.58.56:539][736]LogSavePackage: Moving 'D:/Tyler/Documents/GitHub/Games/Sandbox/ParticleSystemPlay/Particles/Saved/FirstPersonExampleMap55EA0C694F9AA071A6F1B2B7A9C76117.tmp' to 'D:/Tyler/Documents/GitHub/Games/Sandbox/ParticleSystemPlay/Particles/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.04.10-00.58.59:410][799]Cmd: CLOSE_SLATE_MAINFRAME
+[2015.04.10-00.58.59:445][799]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D04C7F53A0
+[2015.04.10-00.59.02:347][799]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EngineSky/BP_Sky_Sphere" FILE="../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" SILENT=true
+[2015.04.10-00.59.02:755][799]LogSavePackage: Save=357.368744ms
+[2015.04.10-00.59.02:755][799]LogSavePackage: Moving 'D:/Tyler/Documents/GitHub/Games/Sandbox/ParticleSystemPlay/Particles/Saved/BP_Sky_SphereB35E570B448AB8E4DB52018B5272DFB8.tmp' to '../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset'
+[2015.04.10-00.59.03:286][800]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 402/400 MB (ok in editor, bad on fixed memory platform)
+[2015.04.10-00.59.03:286][800]Cmd: QUIT_EDITOR
+[2015.04.10-00.59.03:585][800]LogExit: Preparing to exit.
+[2015.04.10-00.59.04:761][800]LogExit: Editor shut down
+[2015.04.10-00.59.04:761][800]LogExit: Transaction tracking system shut down
+[2015.04.10-00.59.04:763][800]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D04E364EA0
+[2015.04.10-00.59.04:764][800]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D005093240
+[2015.04.10-00.59.04:764][800]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D07EC8F560
+[2015.04.10-00.59.04:764][800]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D07FD04E00
+[2015.04.10-00.59.04:764][800]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D00514E8E0
+[2015.04.10-00.59.04:766][800]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D04E13B1A0
+[2015.04.10-00.59.05:130][800]LogExit: Object subsystem successfully closed.
+[2015.04.10-00.59.05:193][800]LogModuleManager: Shutting down and abandoning module DestructibleMeshEditor (179)
+[2015.04.10-00.59.05:193][800]LogModuleManager: Shutting down and abandoning module MaterialEditor (178)
+[2015.04.10-00.59.05:193][800]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.04.10-00.59.05:193][800]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.04.10-00.59.05:193][800]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.04.10-00.59.05:193][800]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.04.10-00.59.05:193][800]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.04.10-00.59.05:193][800]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.04.10-00.59.05:193][800]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.04.10-00.59.05:193][800]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.04.10-00.59.05:193][800]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.04.10-00.59.05:194][800]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.04.10-00.59.05:194][800]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.04.10-00.59.05:194][800]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.04.10-00.59.05:194][800]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.04.10-00.59.05:194][800]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.04.10-00.59.05:194][800]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.04.10-00.59.05:194][800]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.04.10-00.59.05:194][800]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.04.10-00.59.05:194][800]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.04.10-00.59.05:194][800]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.04.10-00.59.05:194][800]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.04.10-00.59.05:194][800]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.04.10-00.59.05:194][800]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.04.10-00.59.05:194][800]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.04.10-00.59.05:194][800]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.04.10-00.59.05:194][800]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.04.10-00.59.05:194][800]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.04.10-00.59.05:194][800]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.04.10-00.59.05:194][800]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.04.10-00.59.05:194][800]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.04.10-00.59.05:194][800]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.04.10-00.59.05:194][800]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.04.10-00.59.05:194][800]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.04.10-00.59.05:974][800]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.04.10-00.59.05:974][800]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.04.10-00.59.05:974][800]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.04.10-00.59.05:974][800]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.04.10-00.59.05:974][800]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.04.10-00.59.05:974][800]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.04.10-00.59.05:974][800]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.04.10-00.59.05:974][800]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.04.10-00.59.05:974][800]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.04.10-00.59.05:974][800]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.04.10-00.59.05:974][800]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.04.10-00.59.05:974][800]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.04.10-00.59.05:975][800]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.04.10-00.59.05:975][800]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.04.10-00.59.05:975][800]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.04.10-00.59.05:975][800]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.04.10-00.59.05:975][800]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.04.10-00.59.05:975][800]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.04.10-00.59.05:975][800]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.04.10-00.59.06:040][800]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.04.10-00.59.06:040][800]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.04.10-00.59.06:040][800]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.04.10-00.59.06:041][800]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.04.10-00.59.06:041][800]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.04.10-00.59.06:041][800]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.04.10-00.59.06:041][800]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.04.10-00.59.06:041][800]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.04.10-00.59.06:041][800]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.04.10-00.59.06:041][800]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.04.10-00.59.06:041][800]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.04.10-00.59.06:041][800]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.04.10-00.59.06:041][800]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.04.10-00.59.06:041][800]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.04.10-00.59.06:041][800]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.04.10-00.59.06:041][800]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.04.10-00.59.06:041][800]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.04.10-00.59.06:041][800]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.04.10-00.59.06:041][800]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.04.10-00.59.06:042][800]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.04.10-00.59.06:042][800]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.04.10-00.59.06:121][800]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.04.10-00.59.06:121][800]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.04.10-00.59.06:121][800]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.04.10-00.59.06:121][800]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.04.10-00.59.06:121][800]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.04.10-00.59.06:121][800]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.04.10-00.59.06:121][800]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.04.10-00.59.06:121][800]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.04.10-00.59.06:121][800]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.04.10-00.59.06:121][800]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.04.10-00.59.06:121][800]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.04.10-00.59.06:121][800]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.04.10-00.59.06:121][800]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.04.10-00.59.06:122][800]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.04.10-00.59.06:122][800]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.04.10-00.59.06:122][800]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.04.10-00.59.06:122][800]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.04.10-00.59.06:122][800]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.04.10-00.59.06:122][800]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.04.10-00.59.06:122][800]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.04.10-00.59.06:122][800]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.04.10-00.59.06:122][800]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.04.10-00.59.06:122][800]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.04.10-00.59.06:122][800]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.04.10-00.59.06:123][800]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.04.10-00.59.06:123][800]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.04.10-00.59.06:123][800]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.04.10-00.59.06:224][800]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.04.10-00.59.06:224][800]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.04.10-00.59.06:227][800]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.04.10-00.59.06:227][800]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.04.10-00.59.06:227][800]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.04.10-00.59.06:227][800]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.04.10-00.59.06:227][800]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.04.10-00.59.06:227][800]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.04.10-00.59.06:227][800]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.04.10-00.59.06:227][800]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.04.10-00.59.06:227][800]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.04.10-00.59.06:227][800]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.04.10-00.59.06:227][800]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.04.10-00.59.06:227][800]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.04.10-00.59.06:227][800]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.04.10-00.59.06:227][800]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.04.10-00.59.06:227][800]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.04.10-00.59.06:232][800]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.04.10-00.59.06:232][800]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.04.10-00.59.06:232][800]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.04.10-00.59.06:232][800]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.04.10-00.59.06:232][800]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.04.10-00.59.06:232][800]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.04.10-00.59.06:232][800]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.04.10-00.59.06:232][800]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.04.10-00.59.06:232][800]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.04.10-00.59.06:232][800]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.04.10-00.59.06:316][800]LogDerivedDataCache: Shutdown
+[2015.04.10-00.59.06:316][800]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.04.10-00.59.06:316][800]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.04.10-00.59.06:316][800]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.04.10-00.59.06:316][800]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.04.10-00.59.06:316][800]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.04.10-00.59.06:316][800]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.04.10-00.59.06:316][800]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.04.10-00.59.06:316][800]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.04.10-00.59.06:316][800]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.04.10-00.59.06:316][800]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.04.10-00.59.06:316][800]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.04.10-00.59.06:316][800]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.04.10-00.59.06:316][800]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.04.10-00.59.06:316][800]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.04.10-00.59.06:316][800]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.04.10-00.59.06:316][800]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.04.10-00.59.06:316][800]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.04.10-00.59.06:316][800]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.04.10-00.59.06:316][800]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.04.10-00.59.06:316][800]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.04.10-00.59.06:316][800]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.04.10-00.59.06:316][800]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.04.10-00.59.06:316][800]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.04.10-00.59.06:316][800]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.04.10-00.59.06:316][800]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.04.10-00.59.06:316][800]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.04.10-00.59.06:316][800]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.04.10-00.59.06:316][800]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.04.10-00.59.06:316][800]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.04.10-00.59.06:316][800]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.04.10-00.59.06:316][800]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.04.10-00.59.06:316][800]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.04.10-00.59.06:316][800]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.04.10-00.59.06:316][800]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.04.10-00.59.06:316][800]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.04.10-00.59.06:316][800]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.04.10-00.59.06:316][800]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.04.10-00.59.06:316][800]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.04.10-00.59.06:316][800]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.04.10-00.59.06:316][800]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.04.10-00.59.06:325][800]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.04.10-00.59.06:325][800]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.04.10-00.59.06:325][800]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.04.10-00.59.06:325][800]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.04.10-00.59.06:325][800]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.04.10-00.59.06:325][800]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.04.10-00.59.06:325][800]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.04.10-00.59.06:325][800]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.04.10-00.59.06:325][800]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.04.10-00.59.06:325][800]LogExit: Exiting.
+[2015.04.10-00.59.06:344][800]Log file closed, 04/09/15 20:59:06
