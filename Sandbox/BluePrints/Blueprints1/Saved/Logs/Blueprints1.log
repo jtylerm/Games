@@ -1,0 +1,1066 @@
+﻿Log file open, 04/12/15 19:23:32
+LogInit:Display: Running engine for game: Blueprints1
+LogInit: Version: 4.7.5-2503383+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr  6 2015 23:21:51
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: D:/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.04.12-23.23.32:837][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.04.12-23.23.32:896][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.04.12-23.23.32:911][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.04.12-23.23.32:923][  0]LogInit: Object subsystem initialized
+[2015.04.12-23.23.32:925][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.04.12-23.23.32:925][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.12-23.23.32:925][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.04.12-23.23.32:925][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.12-23.23.32:925][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.04.12-23.23.32:925][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.12-23.23.32:926][  0]LogInit: Selected Device Profile: [Windows]
+[2015.04.12-23.23.32:926][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.04.12-23.23.32:932][  0]LogInit: Computer: GRAPHICSSERVER
+[2015.04.12-23.23.32:932][  0]LogInit: User: tyler
+[2015.04.12-23.23.32:932][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.04.12-23.23.32:932][  0]LogInit: High frequency timer resolution =3.001600 MHz
+[2015.04.12-23.23.32:932][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx) Virtual=131072.0GB
+[2015.04.12-23.23.32:932][  0]LogMemory: Platform Memory Stats for Windows
+[2015.04.12-23.23.32:932][  0]LogMemory: Process Physical Memory: 45.92 MB used, 45.92 MB peak
+[2015.04.12-23.23.32:932][  0]LogMemory: Process Virtual Memory: 24.55 MB used, 24.55 MB peak
+[2015.04.12-23.23.32:932][  0]LogMemory: Physical Memory: 2914.69 MB used, 16375.11 MB total
+[2015.04.12-23.23.32:933][  0]LogMemory: Virtual Memory: 287.09 MB used, 134217728.00 MB total
+[2015.04.12-23.23.32:945][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 5700 Series (Feature Level 11_0)
+[2015.04.12-23.23.32:945][  0]LogD3D11RHI: Adapter has 1005MB of dedicated video memory, 0MB of dedicated system memory, and 7936MB of shared system memory, 2 output[s]
+[2015.04.12-23.23.32:946][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.04.12-23.23.32:946][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.04.12-23.23.32:946][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.04.12-23.23.32:949][  0]LogRHI: Texture pool is 704 MB (70% of 1005 MB)
+[2015.04.12-23.23.32:954][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.04.12-23.23.33:020][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.04.12-23.23.33:099][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (D:/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (D:/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.04.12-23.23.33:099][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (D:/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (D:/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.04.12-23.23.33:192][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.04.12-23.23.35:806][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.12-23.23.36:381][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.12-23.23.36:454][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.04.12-23.23.36:506][  0]LogDerivedDataCache: Loaded boot cache 0.05s 39MB C:/Users/tyler/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.12-23.23.36:506][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/tyler/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.04.12-23.23.36:506][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.04.12-23.23.36:506][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.04.12-23.23.36:653][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.04.12-23.23.36:665][  0]LogDerivedDataCache: Using Local data cache path C:/Users/tyler/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.04.12-23.23.37:017][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.04.12-23.23.37:017][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.04.12-23.23.37:450][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.04.12-23.23.37:536][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.04.12-23.23.38:426][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.04.12-23.23.38:638][  0]SourceControl: Info Source control is disabled
+[2015.04.12-23.23.38:638][  0]SourceControl: Info Source control is disabled
+[2015.04.12-23.23.38:638][  0]SourceControl: Info Source control is disabled
+[2015.04.12-23.23.38:639][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.04.12-23.23.38:639][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.04.12-23.23.38:648][  0]SourceControl: Info Source control is disabled
+[2015.04.12-23.23.38:873][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.04.12-23.23.38:873][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.04.12-23.23.38:983][  0]LogEngine: Initializing Engine...
+[2015.04.12-23.23.41:169][  0]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.04.12-23.23.41:184][  0]LogInit: FAudioDevice initialized.
+[2015.04.12-23.23.41:230][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.12-23.23.41:257][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/tyler/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.12-23.23.41:266][  0]LogInit: Texture streaming: Enabled
+[2015.04.12-23.23.41:378][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.04.12-23.23.41:378][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.5-2503383+++depot+UE4-Releases+4.7
+[2015.04.12-23.23.41:378][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.5-2503383+++depot+UE4-Releases+4.7
+[2015.04.12-23.23.41:378][  0]LogAnalytics: SetUserId cd12d6bf4b729a9f6ba70cb844a09567|71ce951bf3604114a422a27333520941|2c8b098c-dff3-496a-b981-565ca309ad16
+[2015.04.12-23.23.41:378][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.04.12-23.23.41:413][  0]LogInit: Transaction tracking system initialized
+[2015.04.12-23.23.41:605][  0]BlueprintLog: New page: Editor Load
+[2015.04.12-23.23.41:642][  0]LogAssetRegistry: FAssetRegistry took 0.0105 seconds to start up
+[2015.04.12-23.23.41:642][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.04.12-23.23.42:215][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.12-23.23.42:601][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.12-23.23.42:885][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.04.12-23.23.42:886][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.04.12-23.23.42:891][  0]LogConsoleResponse:Display: 
+[2015.04.12-23.23.43:045][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.04.12-23.23.43:214][  0]SourceControl: Info Source control is disabled
+[2015.04.12-23.23.43:215][  0]Cmd: MAP LOAD FILE="../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.12-23.23.43:215][  0]LightingResults: New page: Lighting Build
+[2015.04.12-23.23.43:230][  0]MapCheck: New page: Map Check
+[2015.04.12-23.23.43:230][  0]LightingResults: New page: Lighting Build
+[2015.04.12-23.23.43:238][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000044F093A980
+[2015.04.12-23.23.43:248][  0]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.12-23.23.44:807][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.12-23.23.45:890][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.12-23.23.45:891][  0]Cmd: MAP CHECKDEP
+[2015.04.12-23.23.45:891][  0]MapCheck: New page: FirstPersonExampleMap - Apr 12, 2015, 3:23:45 PM
+[2015.04.12-23.23.45:981][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 90.235ms to complete.
+[2015.04.12-23.23.45:982][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 2.767
+[2015.04.12-23.23.46:103][  0]LogCollectionManager: Loaded 0 collections in 0.001867 seconds
+[2015.04.12-23.23.46:113][  0]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 1696 classes and 261 folders.
+[2015.04.12-23.23.46:134][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.04.12-23.23.46:207][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0016 seconds. Added 1 classes and 2 folders.
+[2015.04.12-23.23.46:265][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.04.12-23.23.46:266][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.04.12-23.23.46:271][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.04.12-23.23.46:297][  0]LogLoad: Full Startup: 15.38 seconds (BP compile: 0.64 seconds)
+[2015.04.12-23.23.46:888][  0]LogRenderer:Warning: Reallocating scene render targets to support 1624x1448 (Frame:2).
+[2015.04.12-23.23.48:754][  6]LogAssetRegistry: Asset discovery search completed in 7.1220 seconds
+[2015.04.12-23.24.09:658][540]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2015.04.12-23.26.06:250][162]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.12-23.26.06:250][162]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2015.04.12-23.27.54:487][558]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2015.04.12-23.28.42:477][562]LogSavePackage: Save=2515.163330ms
+[2015.04.12-23.28.42:477][562]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/FirstPersonExampleMapA941B74449DDD389A51302A5E9B4A4CD.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.04.12-23.28.42:516][562]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 2.694
+[2015.04.12-23.28.42:521][562]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TriggerBox_Blueprint" FILE="../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/TriggerBox_Blueprint.uasset" SILENT=true
+[2015.04.12-23.28.42:539][562]LogSavePackage: Save=16.762394ms
+[2015.04.12-23.28.42:539][562]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/TriggerBox_Blueprint0F8EA5DA4317EE899453C9BA7166A3C1.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/TriggerBox_Blueprint.uasset'
+[2015.04.12-23.28.47:254][703]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.04.12-23.28.48:064][726]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2015.04.12-23.29.29:235][139]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2015.04.12-23.31.13:548][158]BlueprintLog: New page: Compile TriggerBox_Blueprint
+[2015.04.12-23.31.13:616][158]BlueprintEditorCompileResults: Info [0462.70] Compile of TriggerBox_Blueprint successful! [in 67 ms]
+[2015.04.12-23.31.19:092][426]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2015.04.12-23.31.20:618][469]LogEditorViewport: Clicking on Actor (LMB): TriggerBox_Blueprint_C (TriggerBox_Blueprint)
+[2015.04.12-23.38.42:617][761]LogSavePackage: Save=2616.701172ms
+[2015.04.12-23.38.42:617][761]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/FirstPersonExampleMap_Auto168EAF6DF49EB9FE0F859B1922E571A83.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2015.04.12-23.38.42:623][761]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 2.771
+[2015.04.12-23.38.42:623][761]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.771
+[2015.04.12-23.38.42:658][761]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TriggerBox_Blueprint] ([1] browsable assets)...
+[2015.04.12-23.38.42:658][761]OBJ SavePackage: Finished generating thumbnails for package [/Game/TriggerBox_Blueprint]
+[2015.04.12-23.38.42:762][761]LogSavePackage: Save=85.455757ms
+[2015.04.12-23.38.42:763][761]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/TriggerBox_Blueprint_Auto146D8D62247345102026614A218D35756.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/Autosaves/Game/TriggerBox_Blueprint_Auto1.uasset'
+[2015.04.12-23.38.42:766][761]LogFileHelpers: Auto-saving content packages took 0.144
+[2015.04.12-23.43.47:388][332]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2015.04.12-23.44.08:229][539]LogSavePackage: Save=2497.137451ms
+[2015.04.12-23.44.08:229][539]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/FirstPersonExampleMap79C7C556420E425822E612AF4ACAF22C.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.04.12-23.44.08:269][539]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 2.677
+[2015.04.12-23.44.08:273][539]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TriggerBox_Blueprint" FILE="../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/TriggerBox_Blueprint.uasset" SILENT=true
+[2015.04.12-23.44.08:303][539]LogSavePackage: Save=23.146656ms
+[2015.04.12-23.44.08:303][539]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/TriggerBox_Blueprint508CEC374F520EE12618DD9930318E3D.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/TriggerBox_Blueprint.uasset'
+[2015.04.12-23.45.12:876][ 82]Cmd: TRANSACTION UNDO
+[2015.04.12-23.45.12:876][ 82]LogEditorTransaction: Undo Attach actors
+[2015.04.12-23.45.57:986][518]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall7)
+[2015.04.12-23.46.04:856][636]LogSavePackage: Save=2518.983887ms
+[2015.04.12-23.46.04:856][636]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/FirstPersonExampleMap4681A4A043DFC4C0027C189E3AA1C6E5.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.04.12-23.46.04:900][636]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 2.688
+[2015.04.12-23.46.04:905][636]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TriggerBox_Blueprint" FILE="../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/TriggerBox_Blueprint.uasset" SILENT=true
+[2015.04.12-23.46.04:932][636]LogSavePackage: Save=23.444830ms
+[2015.04.12-23.46.04:932][636]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/TriggerBox_BlueprintF0C18A224D138BE48068198A260C9910.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/TriggerBox_Blueprint.uasset'
+[2015.04.12-23.52.43:990][540]BlueprintLog: New page: Compile TriggerBox_Blueprint
+[2015.04.12-23.52.44:057][540]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000044A591EDE0
+[2015.04.12-23.52.44:068][540]BlueprintEditorCompileResults: Info [1753.16] Compile of TriggerBox_Blueprint successful! [in 77 ms]
+[2015.04.12-23.52.48:922][888]LogEditorViewport: Clicking on Actor (LMB): TriggerBox_Blueprint_C (TriggerBox_Blueprint)
+[2015.04.12-23.53.06:032][395]BlueprintLog: New page: Compile TriggerBox_Blueprint
+[2015.04.12-23.53.06:128][395]BlueprintEditorCompileResults: Info [1775.22] Compile of TriggerBox_Blueprint successful! [in 95 ms]
+[2015.04.12-23.53.40:423][651]LogSavePackage: Save=2587.111816ms
+[2015.04.12-23.53.40:423][651]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/FirstPersonExampleMapE097D32A4D955243C6F575AD3676A3A1.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.04.12-23.53.40:467][651]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 2.773
+[2015.04.12-23.53.40:471][651]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TriggerBox_Blueprint" FILE="../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/TriggerBox_Blueprint.uasset" SILENT=true
+[2015.04.12-23.53.40:503][651]LogSavePackage: Save=25.000999ms
+[2015.04.12-23.53.40:503][651]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/TriggerBox_Blueprint9750B0044DC65D17233FAA8DA1C0C4AA.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/TriggerBox_Blueprint.uasset'
+[2015.04.12-23.53.49:003][903]LogEditorViewport: Clicking on Actor (CTRL LMB): PointLight (PointLight)
+[2015.04.12-23.53.51:988][988]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall8)
+[2015.04.12-23.53.52:845][ 11]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2015.04.12-23.55.36:690][372]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.12-23.55.36:691][372]LogProperty:Warning: Illegal TEXT reference to a private object in external package (PointLight /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.PointLight_0) from referencer (K2Node_Literal /Game/TriggerBox_Blueprint.TriggerBox_Blueprint:EventGraph.K2Node_Literal_1).  Import failed...
+[2015.04.12-23.55.36:691][372]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef: unresolved reference to 'PointLight'/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.PointLight_0''
+[2015.04.12-23.58.05:368][491]LogEditorActor: Deleted Actor: TriggerBox_Blueprint_C
+[2015.04.12-23.58.05:405][491]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2015.04.12-23.58.09:111][608]Cmd: TRANSACTION UNDO
+[2015.04.12-23.58.09:111][608]LogEditorTransaction: Undo Delete selection
+[2015.04.12-23.58.25:469][295]LogSavePackage: Save=2543.288330ms
+[2015.04.12-23.58.25:469][295]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/FirstPersonExampleMapFC0F7B2D41F4B6F0D277B6AD4941B5E4.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.04.12-23.58.25:508][295]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 2.731
+[2015.04.12-23.58.25:512][295]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TriggerBox_Blueprint" FILE="../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/TriggerBox_Blueprint.uasset" SILENT=true
+[2015.04.12-23.58.25:541][295]LogSavePackage: Save=24.733143ms
+[2015.04.12-23.58.25:541][295]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/TriggerBox_BlueprintAA1EEC254004DBA9F1EEB693C742F499.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/TriggerBox_Blueprint.uasset'
+[2015.04.12-23.58.34:296][671]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall8)
+[2015.04.12-23.58.36:638][734]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2015.04.12-23.58.39:179][807]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2015.04.12-23.58.40:746][851]LogEditorViewport: Clicking on Actor (LMB): TriggerBox_Blueprint_C (TriggerBox_Blueprint)
+[2015.04.13-00.00.01:874][471]LogSavePackage: Save=2519.910156ms
+[2015.04.13-00.00.01:874][471]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/FirstPersonExampleMapA4D58BCF4DAAEE66CE69FCB5DA835FEC.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.04.13-00.00.01:912][471]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 2.706
+[2015.04.13-00.02.54:339][665]LogEditorTransaction: Undo Delete current selection
+[2015.04.13-00.10.04:671][ 42]LogSavePackage: Save=2461.525635ms
+[2015.04.13-00.10.04:671][ 42]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/FirstPersonExampleMap_Auto2351446164E441894DA4976B9A9EBCC27.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap'
+[2015.04.13-00.10.04:678][ 42]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 2.576
+[2015.04.13-00.10.04:678][ 42]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.576
+[2015.04.13-00.10.04:717][ 42]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TriggerBox_Blueprint] ([1] browsable assets)...
+[2015.04.13-00.10.04:717][ 42]OBJ SavePackage: Finished generating thumbnails for package [/Game/TriggerBox_Blueprint]
+[2015.04.13-00.10.04:836][ 42]LogSavePackage: Save=99.780449ms
+[2015.04.13-00.10.04:837][ 42]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/TriggerBox_Blueprint_Auto2FB956380409243AE42FC23A0C85CF0E3.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/Autosaves/Game/TriggerBox_Blueprint_Auto2.uasset'
+[2015.04.13-00.10.04:841][ 42]LogFileHelpers: Auto-saving content packages took 0.163
+[2015.04.13-00.13.24:854][869]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.13-00.13.24:854][869]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.13-00.13.24:856][869]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2226.EdGraphPin_17274''
+[2015.04.13-00.20.07:530][385]LogSavePackage: Save=2495.434814ms
+[2015.04.13-00.20.07:530][385]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/FirstPersonExampleMap_Auto32CBD3A5A4873E69D322BFE9CCED25B73.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto3.umap'
+[2015.04.13-00.20.07:536][385]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 2.611
+[2015.04.13-00.20.07:536][385]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.611
+[2015.04.13-00.20.07:571][385]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TriggerBox_Blueprint] ([1] browsable assets)...
+[2015.04.13-00.20.07:571][385]OBJ SavePackage: Finished generating thumbnails for package [/Game/TriggerBox_Blueprint]
+[2015.04.13-00.20.07:680][385]LogSavePackage: Save=99.427635ms
+[2015.04.13-00.20.07:681][385]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/TriggerBox_Blueprint_Auto3C4296084437115D33922EAAD62363288.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/Autosaves/Game/TriggerBox_Blueprint_Auto3.uasset'
+[2015.04.13-00.20.07:685][385]LogFileHelpers: Auto-saving content packages took 0.150
+[2015.04.13-00.22.30:700][384]LogSavePackage: Save=2499.112549ms
+[2015.04.13-00.22.30:700][384]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/FirstPersonExampleMapA093BEA74099AB4BDCBB309B6A1283E8.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.04.13-00.22.30:741][384]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 2.666
+[2015.04.13-00.22.30:745][384]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TriggerBox_Blueprint" FILE="../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/TriggerBox_Blueprint.uasset" SILENT=true
+[2015.04.13-00.22.30:788][384]LogSavePackage: Save=38.529449ms
+[2015.04.13-00.22.30:788][384]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/TriggerBox_Blueprint48C83D6142D4FE9C3FC5B3A94078D12F.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/TriggerBox_Blueprint.uasset'
+[2015.04.13-00.22.34:631][842]BlueprintLog: New page: Compile TriggerBox_Blueprint
+[2015.04.13-00.22.34:723][842]BlueprintEditorCompileResults: Info [3543.81] Compile of TriggerBox_Blueprint successful! [in 92 ms]
+[2015.04.13-00.22.39:500][192]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.13-00.22.39:505][192]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.13-00.22.39:575][192]LogPlayLevel: PIE:  Blueprint regeneration took 75 ms (1 blueprints)
+[2015.04.13-00.22.39:575][192]PIE: New page: PIE session: FirstPersonExampleMap (Apr 12, 2015, 4:22:39 PM)
+[2015.04.13-00.22.39:605][192]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029319s)
+[2015.04.13-00.22.39:606][192]LogPlayLevel: PIE: World Init took: (0.001068s)
+[2015.04.13-00.22.39:607][192]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.030713s)
+[2015.04.13-00.22.39:777][192]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.13-00.22.39:780][192]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.13-00.22.39:790][192]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.12-20.22.39
+[2015.04.13-00.22.39:791][192]LogWorld: Bringing up level for play took: 0.010688
+[2015.04.13-00.22.39:793][192]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.011
+[2015.04.13-00.22.48:591][613]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000044AECABCE0
+[2015.04.13-00.22.49:963][652]MapCheck: New page: Map Check
+[2015.04.13-00.22.50:035][652]Cmd: MAP REBUILD ALLVISIBLE
+[2015.04.13-00.22.50:035][652]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.04.13-00.22.50:070][652]LightingResults: New page: Lighting Build - Apr 12, 2015, 4:22:50 PM
+[2015.04.13-00.22.53:236][652]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.04.13-00.22.53:236][652]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.04.13-00.22.53:236][652]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.04.13-00.22.53:236][652]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.04.13-00.22.53:236][652]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.04.13-00.22.53:409][652]LogEditorBuildUtils: Build time 0:00:03
+[2015.04.13-00.24.10:376][920]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Materials'
+[2015.04.13-00.24.35:165][612]Cmd: TRANSACTION UNDO
+[2015.04.13-00.24.35:165][612]LogEditorTransaction: Undo Assign Material to Component (Drag and Drop)
+[2015.04.13-00.24.35:570][617]Cmd: TRANSACTION UNDO
+[2015.04.13-00.24.35:570][617]LogEditorTransaction: Undo Assign Material to Component (Drag and Drop)
+[2015.04.13-00.24.39:828][735]Job is a success!
+[2015.04.13-00.24.44:180][736]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2015.04.13-00.24.47:561][736]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
+[2015.04.13-00.24.47:565][736]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
+[2015.04.13-00.24.47:580][736]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
+[2015.04.13-00.24.47:864][736]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2015.04.13-00.24.48:840][736]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2015.04.13-00.24.49:094][736]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2015.04.13-00.24.49:838][736]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2015.04.13-00.24.50:089][736]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2015.04.13-00.24.50:817][736]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2015.04.13-00.24.51:067][736]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2015.04.13-00.24.51:922][736]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2015.04.13-00.24.52:213][736]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2015.04.13-00.24.53:213][736]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.04.13-00.24.53:485][736]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.04.13-00.24.54:627][736]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.04.13-00.24.58:768][736]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (BGRA8)
+[2015.04.13-00.25.00:242][736]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (BGRA8)
+[2015.04.13-00.25.01:173][736]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (BGRA8)
+[2015.04.13-00.25.02:094][736]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (BGRA8)
+[2015.04.13-00.25.03:028][736]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (BGRA8)
+[2015.04.13-00.25.03:957][736]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (BGRA8)
+[2015.04.13-00.25.04:883][736]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (BGRA8)
+[2015.04.13-00.25.05:044][736]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (BGRA8)
+[2015.04.13-00.25.05:076][736]Lightmass on GRAPHICSSERVER: 2:10 min total, 113 ms importing, 0 ms setup, 4.41 sec photons, 2:06 min processing, 0 ms extra exporting [8/8 mappings]. Threads: 14:44 min total, 6:32 min processing.
+[2015.04.13-00.25.05:164][736]LogStaticLightingSystem: Illumination: 2:14 min (24.2 sec encoding lightmaps)
+[2015.04.13-00.25.05:164][736]LogStaticLightingSystem: Lightmap texture memory:  53.3 MB (53.3 MB streaming, 0.0 MB non-streaming), 16 textures
+[2015.04.13-00.25.05:164][736]LogStaticLightingSystem: Shadowmap texture memory: 106.7 MB (106.7 MB streaming, 0.0 MB non-streaming), 8 textures
+[2015.04.13-00.25.05:340][737]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.04.13-00.25.05:340][737]MapCheck: New page: FirstPersonExampleMap - Apr 12, 2015, 4:25:05 PM
+[2015.04.13-00.25.05:448][737]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 107.737ms to complete.
+[2015.04.13-00.25.10:218][890]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.13-00.25.10:225][890]LogPlayLevel: [PIE] Compiling TriggerBox_Blueprint before PIE...
+[2015.04.13-00.25.10:291][890]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.13-00.25.10:436][890]LogPlayLevel: PIE:  Blueprint regeneration took 218 ms (2 blueprints)
+[2015.04.13-00.25.10:437][890]PIE: New page: PIE session: FirstPersonExampleMap (Apr 12, 2015, 4:25:10 PM)
+[2015.04.13-00.25.10:458][890]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020848s)
+[2015.04.13-00.25.10:459][890]LogPlayLevel: PIE: World Init took: (0.000996s)
+[2015.04.13-00.25.10:459][890]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.022108s)
+[2015.04.13-00.25.10:502][890]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.13-00.25.10:505][890]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.13-00.25.10:515][890]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.12-20.25.10
+[2015.04.13-00.25.10:516][890]LogWorld: Bringing up level for play took: 0.010989
+[2015.04.13-00.25.10:519][890]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.737
+[2015.04.13-00.25.26:240][683]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000044B583C400
+[2015.04.13-00.25.40:079][700]LogSavePackage: Save=2760.716553ms
+[2015.04.13-00.25.40:079][700]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/FirstPersonExampleMap0F16AFA244DF4F273C2CA2A6C1E428B2.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.04.13-00.25.40:118][700]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 2.956
+[2015.04.13-00.25.40:123][700]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TriggerBox_Blueprint" FILE="../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/TriggerBox_Blueprint.uasset" SILENT=true
+[2015.04.13-00.25.40:168][700]LogSavePackage: Save=38.487808ms
+[2015.04.13-00.25.40:168][700]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/TriggerBox_Blueprint9196106C4D06B275823121912E43B39A.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/TriggerBox_Blueprint.uasset'
+[2015.04.13-00.25.45:893][872]LogSavePackage: Save=2747.509033ms
+[2015.04.13-00.25.45:893][872]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/FirstPersonExampleMap7297A9E54976E94FC3DCDFB28E7D8C39.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.04.13-00.25.47:911][936]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.13-00.25.47:916][936]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.13-00.25.47:986][936]LogPlayLevel: PIE:  Blueprint regeneration took 75 ms (1 blueprints)
+[2015.04.13-00.25.47:986][936]PIE: New page: PIE session: FirstPersonExampleMap (Apr 12, 2015, 4:25:47 PM)
+[2015.04.13-00.25.48:025][936]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038033s)
+[2015.04.13-00.25.48:026][936]LogPlayLevel: PIE: World Init took: (0.001022s)
+[2015.04.13-00.25.48:026][936]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.039294s)
+[2015.04.13-00.25.48:068][936]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.13-00.25.48:070][936]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.13-00.25.48:079][936]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.12-20.25.48
+[2015.04.13-00.25.48:080][936]LogWorld: Bringing up level for play took: 0.008969
+[2015.04.13-00.25.48:082][936]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.299
+[2015.04.13-00.25.58:321][451]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000044AD919120
+[2015.04.13-00.26.55:468][480]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TriggerBox_Blueprint" FILE="../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/TriggerBox_Blueprint.uasset" SILENT=true
+[2015.04.13-00.26.55:513][480]LogSavePackage: Save=41.137062ms
+[2015.04.13-00.26.55:513][480]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/TriggerBox_BlueprintA52353CE49906522DB9E7F9C04193EB0.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/TriggerBox_Blueprint.uasset'
+[2015.04.13-00.26.57:728][742]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.13-00.26.57:737][742]LogPlayLevel: [PIE] Compiling TriggerBox_Blueprint before PIE...
+[2015.04.13-00.26.57:757][742]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a FunctionalTest, therefore ' Target ' must have a connection.
+[2015.04.13-00.26.57:834][742]LogBlueprint:Warning: [compiler] Warning [3806.92] Compile of TriggerBox_Blueprint failed. 1 Fatal Issue(s) 0 Warning(s) [in 93 ms]
+[2015.04.13-00.26.57:835][742]LogBlueprint:Warning: [compiler] Warning [3806.92] Compile of TriggerBox_Blueprint failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.04.13-00.26.57:835][742]LogBlueprint:Warning: [compiler] Warning [3806.92] Compile of TriggerBox_Blueprint failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.04.13-00.26.57:841][742]LogBlueprint:Warning: [compiler] Warning [3806.93] Compile of TriggerBox_Blueprint failed. 1 Fatal Issue(s) 3 Warning(s) [in 5 ms]
+[2015.04.13-00.26.57:841][742]LogBlueprint:Warning: [compiler] Warning [3806.93] Compile of TriggerBox_Blueprint failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2015.04.13-00.26.57:841][742]LogBlueprint:Warning: [compiler] Warning [3806.93] Compile of TriggerBox_Blueprint failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2015.04.13-00.26.57:848][742]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.13-00.26.57:917][742]LogPlayLevel: PIE:  Blueprint regeneration took 188 ms (2 blueprints)
+[2015.04.13-00.27.10:600][742]BlueprintLog: Info Blueprint TriggerBox_Blueprint failed to compile
+[2015.04.13-00.29.55:061][694]LogSavePackage: Save=2766.190674ms
+[2015.04.13-00.29.55:061][694]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/FirstPersonExampleMap83CCB22244770ADB425505A91F6D93E6.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.04.13-00.29.55:102][694]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 2.937
+[2015.04.13-00.29.55:106][694]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TriggerBox_Blueprint" FILE="../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/TriggerBox_Blueprint.uasset" SILENT=true
+[2015.04.13-00.29.55:154][694]LogSavePackage: Save=44.024521ms
+[2015.04.13-00.29.55:154][694]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/TriggerBox_Blueprint42DB26E1424798E78103AE9BABDB9BAB.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/TriggerBox_Blueprint.uasset'
+[2015.04.13-00.29.59:113][162]BlueprintLog: New page: Compile TriggerBox_Blueprint
+[2015.04.13-00.29.59:203][162]BlueprintEditorCompileResults: Info [3988.29] Compile of TriggerBox_Blueprint successful! [in 90 ms]
+[2015.04.13-00.30.01:475][426]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.13-00.30.01:481][426]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.13-00.30.01:548][426]LogPlayLevel: PIE:  Blueprint regeneration took 73 ms (1 blueprints)
+[2015.04.13-00.30.01:549][426]PIE: New page: PIE session: FirstPersonExampleMap (Apr 12, 2015, 4:30:01 PM)
+[2015.04.13-00.30.01:572][426]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023138s)
+[2015.04.13-00.30.01:573][426]LogPlayLevel: PIE: World Init took: (0.001029s)
+[2015.04.13-00.30.01:573][426]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.024435s)
+[2015.04.13-00.30.01:614][426]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.13-00.30.01:616][426]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.13-00.30.01:625][426]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.12-20.30.01
+[2015.04.13-00.30.01:626][426]LogWorld: Bringing up level for play took: 0.009131
+[2015.04.13-00.30.01:644][426]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.138
+[2015.04.13-00.30.41:891][970]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000044B89C3920
+[2015.04.13-00.31.44:597][803]BlueprintLog: New page: Compile TriggerBox_Blueprint
+[2015.04.13-00.31.44:684][803]BlueprintEditorCompileResults: Info [4093.77] Compile of TriggerBox_Blueprint successful! [in 86 ms]
+[2015.04.13-00.31.46:417][996]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.13-00.31.46:423][996]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.13-00.31.46:491][996]LogPlayLevel: PIE:  Blueprint regeneration took 73 ms (1 blueprints)
+[2015.04.13-00.31.46:491][996]PIE: New page: PIE session: FirstPersonExampleMap (Apr 12, 2015, 4:31:46 PM)
+[2015.04.13-00.31.46:515][996]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023436s)
+[2015.04.13-00.31.46:516][996]LogPlayLevel: PIE: World Init took: (0.000968s)
+[2015.04.13-00.31.46:516][996]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.024657s)
+[2015.04.13-00.31.46:558][996]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.13-00.31.46:560][996]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.13-00.31.46:569][996]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.12-20.31.46
+[2015.04.13-00.31.46:570][996]LogWorld: Bringing up level for play took: 0.009088
+[2015.04.13-00.31.46:590][996]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.808
+[2015.04.13-00.31.49:360][153]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000044AFB4E980
+[2015.04.13-00.31.55:363][496]LogSavePackage: Save=2777.804932ms
+[2015.04.13-00.31.55:363][496]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/FirstPersonExampleMap6542ECBF45608C047336BB9DA1B4A957.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.04.13-00.31.55:403][496]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 2.981
+[2015.04.13-00.31.55:408][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TriggerBox_Blueprint" FILE="../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/TriggerBox_Blueprint.uasset" SILENT=true
+[2015.04.13-00.31.55:459][496]LogSavePackage: Save=43.774986ms
+[2015.04.13-00.31.55:459][496]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/TriggerBox_Blueprint63DE597A419E328873A05CBB59C53973.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/TriggerBox_Blueprint.uasset'
+[2015.04.13-00.31.58:134][803]BlueprintLog: New page: Compile TriggerBox_Blueprint
+[2015.04.13-00.31.58:220][803]BlueprintEditorCompileResults: Info [4107.31] Compile of TriggerBox_Blueprint successful! [in 86 ms]
+[2015.04.13-00.32.00:389][ 49]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.13-00.32.00:395][ 49]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.13-00.32.00:463][ 49]LogPlayLevel: PIE:  Blueprint regeneration took 73 ms (1 blueprints)
+[2015.04.13-00.32.00:463][ 49]PIE: New page: PIE session: FirstPersonExampleMap (Apr 12, 2015, 4:32:00 PM)
+[2015.04.13-00.32.00:486][ 49]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022379s)
+[2015.04.13-00.32.00:487][ 49]LogPlayLevel: PIE: World Init took: (0.001010s)
+[2015.04.13-00.32.00:488][ 49]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.023664s)
+[2015.04.13-00.32.00:537][ 49]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.13-00.32.00:541][ 49]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.13-00.32.00:554][ 49]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.12-20.32.00
+[2015.04.13-00.32.00:556][ 49]LogWorld: Bringing up level for play took: 0.013997
+[2015.04.13-00.32.00:579][ 49]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.796
+[2015.04.13-00.32.05:768][359]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000044AF2298A0
+[2015.04.13-00.32.07:844][598]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.13-00.32.07:849][598]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.13-00.32.07:924][598]LogPlayLevel: PIE:  Blueprint regeneration took 81 ms (1 blueprints)
+[2015.04.13-00.32.07:925][598]PIE: New page: PIE session: FirstPersonExampleMap (Apr 12, 2015, 4:32:07 PM)
+[2015.04.13-00.32.07:947][598]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022125s)
+[2015.04.13-00.32.07:948][598]LogPlayLevel: PIE: World Init took: (0.001020s)
+[2015.04.13-00.32.07:948][598]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.023368s)
+[2015.04.13-00.32.07:987][598]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.13-00.32.07:989][598]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.13-00.32.07:998][598]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.12-20.32.07
+[2015.04.13-00.32.07:999][598]LogWorld: Bringing up level for play took: 0.009029
+[2015.04.13-00.32.08:019][598]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.237
+[2015.04.13-00.32.21:835][463]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000044B9AD1E40
+[2015.04.13-00.32.26:406][983]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.13-00.32.26:412][983]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.13-00.32.26:482][983]LogPlayLevel: PIE:  Blueprint regeneration took 75 ms (1 blueprints)
+[2015.04.13-00.32.26:482][983]PIE: New page: PIE session: FirstPersonExampleMap (Apr 12, 2015, 4:32:26 PM)
+[2015.04.13-00.32.26:506][983]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023525s)
+[2015.04.13-00.32.26:507][983]LogPlayLevel: PIE: World Init took: (0.001003s)
+[2015.04.13-00.32.26:507][983]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.024753s)
+[2015.04.13-00.32.26:552][983]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.13-00.32.26:554][983]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.13-00.32.26:563][983]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.12-20.32.26
+[2015.04.13-00.32.26:564][983]LogWorld: Bringing up level for play took: 0.008992
+[2015.04.13-00.32.26:583][983]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.801
+[2015.04.13-00.33.13:106][964]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000044AA5BCB80
+[2015.04.13-00.42.08:791][908]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a LightComponent, therefore ' Target ' must have a connection.
+[2015.04.13-00.42.08:794][908]LogProperty:Warning: Serialized Class /Script/Engine.PointLight for a property of Class /Script/CoreUObject.Class. Reference will be NULLed.
+    Property = ClassProperty /Game/TriggerBox_Blueprint.TriggerBox_Blueprint_C:TargetActor
+    Item = PointLight /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.PointLight_0
+[2015.04.13-00.42.08:890][908]LogBlueprint:Warning: [compiler] Warning [4717.98] Compile of TriggerBox_Blueprint failed. 1 Fatal Issue(s) 0 Warning(s) [in 117 ms]
+[2015.04.13-00.42.08:890][908]LogBlueprint:Warning: [compiler] Warning [4717.98] Compile of TriggerBox_Blueprint failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.04.13-00.42.08:890][908]LogBlueprint:Warning: [compiler] Warning [4717.98] Compile of TriggerBox_Blueprint failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.04.13-00.42.08:900][908]LogBlueprint:Warning: [compiler] Warning [4717.99] Compile of TriggerBox_Blueprint failed. 1 Fatal Issue(s) 3 Warning(s) [in 9 ms]
+[2015.04.13-00.42.08:901][908]LogBlueprint:Warning: [compiler] Warning [4717.99] Compile of TriggerBox_Blueprint failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2015.04.13-00.42.08:901][908]LogBlueprint:Warning: [compiler] Warning [4717.99] Compile of TriggerBox_Blueprint failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2015.04.13-00.43.00:921][483]LogSavePackage: Save=2751.501465ms
+[2015.04.13-00.43.00:921][483]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/FirstPersonExampleMap_Auto43488E14C499E9AF1CF02CAB8575AC829.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto4.umap'
+[2015.04.13-00.43.00:927][483]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 2.873
+[2015.04.13-00.43.00:927][483]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.873
+[2015.04.13-00.43.00:965][483]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TriggerBox_Blueprint] ([1] browsable assets)...
+[2015.04.13-00.43.00:965][483]OBJ SavePackage: Finished generating thumbnails for package [/Game/TriggerBox_Blueprint]
+[2015.04.13-00.43.01:075][483]LogSavePackage: Save=99.451294ms
+[2015.04.13-00.43.01:076][483]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/TriggerBox_Blueprint_Auto4B275D4274B4EF28802D6A7B04F9C02EF.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/Autosaves/Game/TriggerBox_Blueprint_Auto4.uasset'
+[2015.04.13-00.43.01:080][483]LogFileHelpers: Auto-saving content packages took 0.153
+[2015.04.13-00.43.24:377][ 42]LogEditorTransaction: Undo Add Node
+[2015.04.13-00.44.46:761][ 72]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2015.04.13-00.44.46:879][ 72]LogBlueprint:Warning: [compiler] Warning [4875.97] Compile of TriggerBox_Blueprint failed. 1 Fatal Issue(s) 0 Warning(s) [in 133 ms]
+[2015.04.13-00.44.46:879][ 72]LogBlueprint:Warning: [compiler] Warning [4875.97] Compile of TriggerBox_Blueprint failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2015.04.13-00.44.46:879][ 72]LogBlueprint:Warning: [compiler] Warning [4875.97] Compile of TriggerBox_Blueprint failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2015.04.13-00.44.46:886][ 72]LogBlueprint:Warning: [compiler] Warning [4875.97] Compile of TriggerBox_Blueprint failed. 1 Fatal Issue(s) 3 Warning(s) [in 6 ms]
+[2015.04.13-00.44.46:886][ 72]LogBlueprint:Warning: [compiler] Warning [4875.97] Compile of TriggerBox_Blueprint failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2015.04.13-00.44.46:886][ 72]LogBlueprint:Warning: [compiler] Warning [4875.97] Compile of TriggerBox_Blueprint failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2015.04.13-00.45.04:091][ 41]BlueprintLog: New page: Compile TriggerBox_Blueprint
+[2015.04.13-00.45.04:175][ 41]BlueprintEditorCompileResults: Info [4893.26] Compile of TriggerBox_Blueprint successful! [in 84 ms]
+[2015.04.13-00.46.04:156][893]BlueprintLog: New page: Compile TriggerBox_Blueprint
+[2015.04.13-00.46.04:242][893]BlueprintEditorCompileResults: Info [4953.33] Compile of TriggerBox_Blueprint successful! [in 85 ms]
+[2015.04.13-00.46.10:717][304]LogSavePackage: Save=2749.892090ms
+[2015.04.13-00.46.10:717][304]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/FirstPersonExampleMap1213AF7340F643AC363FE48FF75B27A8.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.04.13-00.46.10:759][304]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 2.934
+[2015.04.13-00.46.10:763][304]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TriggerBox_Blueprint" FILE="../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/TriggerBox_Blueprint.uasset" SILENT=true
+[2015.04.13-00.46.10:812][304]LogSavePackage: Save=44.698826ms
+[2015.04.13-00.46.10:812][304]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/TriggerBox_Blueprint1D7548024DBA7DF5FDCDC39F035B0885.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/TriggerBox_Blueprint.uasset'
+[2015.04.13-00.46.11:931][433]BlueprintLog: New page: Compile TriggerBox_Blueprint
+[2015.04.13-00.46.12:019][433]BlueprintEditorCompileResults: Info [4961.11] Compile of TriggerBox_Blueprint successful! [in 87 ms]
+[2015.04.13-00.46.13:704][624]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.13-00.46.13:710][624]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.13-00.46.13:778][624]LogPlayLevel: PIE:  Blueprint regeneration took 73 ms (1 blueprints)
+[2015.04.13-00.46.13:778][624]PIE: New page: PIE session: FirstPersonExampleMap (Apr 12, 2015, 4:46:13 PM)
+[2015.04.13-00.46.13:815][624]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036457s)
+[2015.04.13-00.46.13:816][624]LogPlayLevel: PIE: World Init took: (0.000983s)
+[2015.04.13-00.46.13:816][624]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.037676s)
+[2015.04.13-00.46.13:862][624]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.13-00.46.13:864][624]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.13-00.46.13:873][624]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.12-20.46.13
+[2015.04.13-00.46.13:874][624]LogWorld: Bringing up level for play took: 0.009205
+[2015.04.13-00.46.13:892][624]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.11
+[2015.04.13-00.46.44:152][612]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000044B6331440
+[2015.04.13-00.48.39:962][648]LogSavePackage: Save=2755.446777ms
+[2015.04.13-00.48.39:962][648]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/FirstPersonExampleMap005BDD6C465CD91F77DEEDA7AA962655.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.04.13-00.48.40:002][648]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 2.959
+[2015.04.13-00.48.40:007][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TriggerBox_Blueprint" FILE="../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/TriggerBox_Blueprint.uasset" SILENT=true
+[2015.04.13-00.48.40:047][648]LogSavePackage: Save=33.322895ms
+[2015.04.13-00.48.40:047][648]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/TriggerBox_BlueprintB2471F164AB4824A35E2EC9AFC75E628.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/TriggerBox_Blueprint.uasset'
+[2015.04.13-00.48.40:769][734]BlueprintLog: New page: Compile TriggerBox_Blueprint
+[2015.04.13-00.48.40:860][734]BlueprintEditorCompileResults: Info [5109.95] Compile of TriggerBox_Blueprint successful! [in 90 ms]
+[2015.04.13-00.48.42:397][910]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.13-00.48.42:403][910]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.13-00.48.42:471][910]LogPlayLevel: PIE:  Blueprint regeneration took 73 ms (1 blueprints)
+[2015.04.13-00.48.42:472][910]PIE: New page: PIE session: FirstPersonExampleMap (Apr 12, 2015, 4:48:42 PM)
+[2015.04.13-00.48.42:499][910]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027185s)
+[2015.04.13-00.48.42:500][910]LogPlayLevel: PIE: World Init took: (0.001020s)
+[2015.04.13-00.48.42:500][910]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.028443s)
+[2015.04.13-00.48.42:540][910]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.13-00.48.42:542][910]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.13-00.48.42:551][910]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.12-20.48.42
+[2015.04.13-00.48.42:552][910]LogWorld: Bringing up level for play took: 0.009185
+[2015.04.13-00.48.42:570][910]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.787
+[2015.04.13-00.49.18:394][284]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000044B44B9BC0
+[2015.04.13-00.51.01:123][721]LogEditorTransaction: Undo Move Node
+[2015.04.13-00.51.02:049][788]LogEditorTransaction: Undo Move Node
+[2015.04.13-00.51.02:632][845]LogEditorTransaction: Undo Create Pin Link
+[2015.04.13-00.51.43:924][523]BlueprintLog: New page: Compile TriggerBox_Blueprint
+[2015.04.13-00.51.44:010][523]BlueprintEditorCompileResults: Info [5293.10] Compile of TriggerBox_Blueprint successful! [in 85 ms]
+[2015.04.13-00.51.49:239][789]LogSavePackage: Save=2757.128174ms
+[2015.04.13-00.51.49:239][789]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/FirstPersonExampleMapCDE2D2DE44A4FEDB18A3E6BC2EDB589C.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.04.13-00.51.49:280][789]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 2.930
+[2015.04.13-00.51.49:284][789]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TriggerBox_Blueprint" FILE="../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/TriggerBox_Blueprint.uasset" SILENT=true
+[2015.04.13-00.51.49:327][789]LogSavePackage: Save=38.713352ms
+[2015.04.13-00.51.49:327][789]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/TriggerBox_Blueprint264F0EBD4F75C60EE86DCEB4284C119F.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/TriggerBox_Blueprint.uasset'
+[2015.04.13-00.51.50:036][873]BlueprintLog: New page: Compile TriggerBox_Blueprint
+[2015.04.13-00.51.50:119][873]BlueprintEditorCompileResults: Info [5299.21] Compile of TriggerBox_Blueprint successful! [in 83 ms]
+[2015.04.13-00.51.52:248][118]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.13-00.51.52:254][118]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.13-00.51.52:322][118]LogPlayLevel: PIE:  Blueprint regeneration took 73 ms (1 blueprints)
+[2015.04.13-00.51.52:322][118]PIE: New page: PIE session: FirstPersonExampleMap (Apr 12, 2015, 4:51:52 PM)
+[2015.04.13-00.51.52:352][118]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029742s)
+[2015.04.13-00.51.52:353][118]LogPlayLevel: PIE: World Init took: (0.001000s)
+[2015.04.13-00.51.52:354][118]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.031028s)
+[2015.04.13-00.51.52:395][118]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.13-00.51.52:397][118]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.13-00.51.52:406][118]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.12-20.51.52
+[2015.04.13-00.51.52:407][118]LogWorld: Bringing up level for play took: 0.009074
+[2015.04.13-00.51.52:427][118]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.645
+[2015.04.13-00.52.07:984][126]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000044ADBBD120
+[2015.04.13-00.55.08:325][808]BlueprintLog: New page: Compile TriggerBox_Blueprint
+[2015.04.13-00.55.08:411][808]BlueprintEditorCompileResults: Info [5497.50] Compile of TriggerBox_Blueprint successful! [in 85 ms]
+[2015.04.13-00.55.10:140][  6]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.13-00.55.10:145][  6]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.13-00.55.10:214][  6]LogPlayLevel: PIE:  Blueprint regeneration took 73 ms (1 blueprints)
+[2015.04.13-00.55.10:214][  6]PIE: New page: PIE session: FirstPersonExampleMap (Apr 12, 2015, 4:55:10 PM)
+[2015.04.13-00.55.10:243][  6]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028789s)
+[2015.04.13-00.55.10:244][  6]LogPlayLevel: PIE: World Init took: (0.001002s)
+[2015.04.13-00.55.10:244][  6]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.030039s)
+[2015.04.13-00.55.10:289][  6]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.13-00.55.10:291][  6]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.13-00.55.10:300][  6]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.12-20.55.10
+[2015.04.13-00.55.10:301][  6]LogWorld: Bringing up level for play took: 0.009072
+[2015.04.13-00.55.10:320][  6]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.538
+[2015.04.13-00.55.34:670][584]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000044818A96C0
+[2015.04.13-00.57.50:094][251]BlueprintLog: New page: Compile TriggerBox_Blueprint
+[2015.04.13-00.57.50:179][251]BlueprintEditorCompileResults: Info [5659.27] Compile of TriggerBox_Blueprint successful! [in 84 ms]
+[2015.04.13-00.57.51:166][356]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.13-00.57.51:172][356]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.13-00.57.51:241][356]LogPlayLevel: PIE:  Blueprint regeneration took 74 ms (1 blueprints)
+[2015.04.13-00.57.51:241][356]PIE: New page: PIE session: FirstPersonExampleMap (Apr 12, 2015, 4:57:51 PM)
+[2015.04.13-00.57.51:267][356]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025569s)
+[2015.04.13-00.57.51:268][356]LogPlayLevel: PIE: World Init took: (0.001161s)
+[2015.04.13-00.57.51:268][356]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.027060s)
+[2015.04.13-00.57.51:313][356]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.13-00.57.51:315][356]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.13-00.57.51:324][356]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.12-20.57.51
+[2015.04.13-00.57.51:325][356]LogWorld: Bringing up level for play took: 0.009207
+[2015.04.13-00.57.51:343][356]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.44
+[2015.04.13-00.58.03:122][100]LogScript:Warning: Accessed None 'TargetActor'
+	TriggerBox_Blueprint_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.TriggerBox_Blueprint_C_2
+	Function /Game/TriggerBox_Blueprint.TriggerBox_Blueprint_C:ExecuteUbergraph_TriggerBox_Blueprint:0060
+[2015.04.13-00.58.03:122][100]PIE:Error: Error Accessed None 'TargetActor' from node Construction Script in blueprint TriggerBox_Blueprint
+[2015.04.13-00.58.21:537][292]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000044F75FBC40
+[2015.04.13-00.58.26:555][828]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.13-00.58.26:561][828]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.13-00.58.26:630][828]LogPlayLevel: PIE:  Blueprint regeneration took 75 ms (1 blueprints)
+[2015.04.13-00.58.26:631][828]PIE: New page: PIE session: FirstPersonExampleMap (Apr 12, 2015, 4:58:26 PM)
+[2015.04.13-00.58.26:654][828]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022521s)
+[2015.04.13-00.58.26:655][828]LogPlayLevel: PIE: World Init took: (0.001082s)
+[2015.04.13-00.58.26:655][828]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.023827s)
+[2015.04.13-00.58.26:695][828]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.13-00.58.26:698][828]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.13-00.58.26:706][828]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.12-20.58.26
+[2015.04.13-00.58.26:707][828]LogWorld: Bringing up level for play took: 0.008967
+[2015.04.13-00.58.26:727][828]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.944
+[2015.04.13-00.58.35:235][365]LogScript:Warning: Accessed None 'TargetActor'
+	TriggerBox_Blueprint_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.TriggerBox_Blueprint_C_2
+	Function /Game/TriggerBox_Blueprint.TriggerBox_Blueprint_C:ExecuteUbergraph_TriggerBox_Blueprint:0060
+[2015.04.13-00.58.35:235][365]PIE:Error: Error Accessed None 'TargetActor' from node Construction Script in blueprint TriggerBox_Blueprint
+[2015.04.13-00.58.38:156][560]LogScript:Warning: Accessed None 'TargetActor'
+	TriggerBox_Blueprint_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.TriggerBox_Blueprint_C_2
+	Function /Game/TriggerBox_Blueprint.TriggerBox_Blueprint_C:ExecuteUbergraph_TriggerBox_Blueprint:0060
+[2015.04.13-00.58.38:156][560]PIE:Error: Error Accessed None 'TargetActor' from node Construction Script in blueprint TriggerBox_Blueprint
+[2015.04.13-00.58.41:084][755]LogScript:Warning: Accessed None 'TargetActor'
+	TriggerBox_Blueprint_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.TriggerBox_Blueprint_C_2
+	Function /Game/TriggerBox_Blueprint.TriggerBox_Blueprint_C:ExecuteUbergraph_TriggerBox_Blueprint:0060
+[2015.04.13-00.58.41:084][755]PIE:Error: Error Accessed None 'TargetActor' from node Construction Script in blueprint TriggerBox_Blueprint
+[2015.04.13-00.58.41:895][809]LogScript:Warning: Accessed None 'TargetActor'
+	TriggerBox_Blueprint_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.TriggerBox_Blueprint_C_2
+	Function /Game/TriggerBox_Blueprint.TriggerBox_Blueprint_C:ExecuteUbergraph_TriggerBox_Blueprint:0060
+[2015.04.13-00.58.41:896][809]PIE:Error: Error Accessed None 'TargetActor' from node Construction Script in blueprint TriggerBox_Blueprint
+[2015.04.13-00.58.43:579][921]LogScript:Warning: Accessed None 'TargetActor'
+	TriggerBox_Blueprint_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.TriggerBox_Blueprint_C_2
+	Function /Game/TriggerBox_Blueprint.TriggerBox_Blueprint_C:ExecuteUbergraph_TriggerBox_Blueprint:0060
+[2015.04.13-00.58.43:579][921]PIE:Error: Error Accessed None 'TargetActor' from node Construction Script in blueprint TriggerBox_Blueprint
+[2015.04.13-00.58.46:740][132]LogScript:Warning: Accessed None 'TargetActor'
+	TriggerBox_Blueprint_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.TriggerBox_Blueprint_C_2
+	Function /Game/TriggerBox_Blueprint.TriggerBox_Blueprint_C:ExecuteUbergraph_TriggerBox_Blueprint:0060
+[2015.04.13-00.58.46:740][132]PIE:Error: Error Accessed None 'TargetActor' from node Construction Script in blueprint TriggerBox_Blueprint
+[2015.04.13-00.58.51:474][448]LogScript:Warning: Accessed None 'TargetActor'
+	TriggerBox_Blueprint_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.TriggerBox_Blueprint_C_2
+	Function /Game/TriggerBox_Blueprint.TriggerBox_Blueprint_C:ExecuteUbergraph_TriggerBox_Blueprint:0060
+[2015.04.13-00.58.51:474][448]PIE:Error: Error Accessed None 'TargetActor' from node Construction Script in blueprint TriggerBox_Blueprint
+[2015.04.13-00.58.54:352][640]LogScript:Warning: Accessed None 'TargetActor'
+	TriggerBox_Blueprint_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.TriggerBox_Blueprint_C_2
+	Function /Game/TriggerBox_Blueprint.TriggerBox_Blueprint_C:ExecuteUbergraph_TriggerBox_Blueprint:0060
+[2015.04.13-00.58.54:352][640]PIE:Error: Error Accessed None 'TargetActor' from node Construction Script in blueprint TriggerBox_Blueprint
+[2015.04.13-00.58.55:403][710]LogScript:Warning: Accessed None 'TargetActor'
+	TriggerBox_Blueprint_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.TriggerBox_Blueprint_C_2
+	Function /Game/TriggerBox_Blueprint.TriggerBox_Blueprint_C:ExecuteUbergraph_TriggerBox_Blueprint:0060
+[2015.04.13-00.58.55:403][710]PIE:Error: Error Accessed None 'TargetActor' from node Construction Script in blueprint TriggerBox_Blueprint
+[2015.04.13-00.59.02:213][122]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000044F50D25C0
+[2015.04.13-00.59.10:443][699]LogSavePackage: Save=2734.947998ms
+[2015.04.13-00.59.10:443][699]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/FirstPersonExampleMap8EB3BDF84113944E7A4E7080B150288E.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.04.13-00.59.10:483][699]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 2.925
+[2015.04.13-00.59.10:488][699]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TriggerBox_Blueprint" FILE="../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/TriggerBox_Blueprint.uasset" SILENT=true
+[2015.04.13-00.59.10:534][699]LogSavePackage: Save=38.278252ms
+[2015.04.13-00.59.10:534][699]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/TriggerBox_Blueprint355E84244D4923255879CCA9BBE16914.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/TriggerBox_Blueprint.uasset'
+[2015.04.13-00.59.12:078][880]BlueprintLog: New page: Compile TriggerBox_Blueprint
+[2015.04.13-00.59.12:161][880]BlueprintEditorCompileResults: Info [5741.25] Compile of TriggerBox_Blueprint successful! [in 83 ms]
+[2015.04.13-00.59.13:292][  8]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.13-00.59.13:298][  8]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.13-00.59.13:381][  8]LogPlayLevel: PIE:  Blueprint regeneration took 88 ms (1 blueprints)
+[2015.04.13-00.59.13:381][  8]PIE: New page: PIE session: FirstPersonExampleMap (Apr 12, 2015, 4:59:13 PM)
+[2015.04.13-00.59.13:404][  8]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022879s)
+[2015.04.13-00.59.13:405][  8]LogPlayLevel: PIE: World Init took: (0.001078s)
+[2015.04.13-00.59.13:406][  8]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.024277s)
+[2015.04.13-00.59.13:451][  8]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.13-00.59.13:453][  8]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.13-00.59.13:462][  8]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.12-20.59.13
+[2015.04.13-00.59.13:463][  8]LogWorld: Bringing up level for play took: 0.009140
+[2015.04.13-00.59.13:483][  8]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.299
+[2015.04.13-00.59.19:884][418]LogScript:Warning: Accessed None 'TargetActor'
+	TriggerBox_Blueprint_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.TriggerBox_Blueprint_C_2
+	Function /Game/TriggerBox_Blueprint.TriggerBox_Blueprint_C:ExecuteUbergraph_TriggerBox_Blueprint:0060
+[2015.04.13-00.59.19:884][418]PIE:Error: Error Accessed None 'TargetActor' from node Construction Script in blueprint TriggerBox_Blueprint
+[2015.04.13-00.59.26:425][855]LogScript:Warning: Accessed None 'TargetActor'
+	TriggerBox_Blueprint_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.TriggerBox_Blueprint_C_2
+	Function /Game/TriggerBox_Blueprint.TriggerBox_Blueprint_C:ExecuteUbergraph_TriggerBox_Blueprint:0060
+[2015.04.13-00.59.26:426][855]PIE:Error: Error Accessed None 'TargetActor' from node Construction Script in blueprint TriggerBox_Blueprint
+[2015.04.13-00.59.31:420][182]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000044D8E33A60
+[2015.04.13-01.00.00:053][356]LogRenderer:Warning: Reallocating scene render targets to support 1920x1448 (Frame:37475).
+[2015.04.13-01.00.42:558][454]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000449D4CBA60
+[2015.04.13-01.00.45:529][454]LogSavePackage: Save=2777.662842ms
+[2015.04.13-01.00.45:529][454]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/FirstPersonExampleMapDBB19EE7496E1491E6077B83D43D188D.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.04.13-01.00.45:569][454]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 2.950
+[2015.04.13-01.03.03:691][ 91]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2015.04.13-01.03.04:878][124]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2015.04.13-01.03.05:560][142]LogEditorViewport: Clicking on Actor (LMB): TriggerBox_Blueprint_C (TriggerBox_Blueprint)
+[2015.04.13-01.03.16:224][380]LogSavePackage: Save=2766.535889ms
+[2015.04.13-01.03.16:224][380]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/FirstPersonExampleMapE3DF87624493731ACDD95E8D23EE3752.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.04.13-01.03.16:265][380]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 2.941
+[2015.04.13-01.03.16:269][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TriggerBox_Blueprint" FILE="../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/TriggerBox_Blueprint.uasset" SILENT=true
+[2015.04.13-01.03.16:312][380]LogSavePackage: Save=38.488808ms
+[2015.04.13-01.03.16:312][380]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/TriggerBox_Blueprint2C963D914EC33127D114F99963A61540.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/TriggerBox_Blueprint.uasset'
+[2015.04.13-01.03.57:968][384]BlueprintLog: New page: Compile TriggerBox_Blueprint
+[2015.04.13-01.03.58:120][384]BlueprintEditorCompileResults: Info [6027.21] Compile of TriggerBox_Blueprint successful! [in 151 ms]
+[2015.04.13-01.04.08:289][754]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall7)
+[2015.04.13-01.04.15:176][942]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2015.04.13-01.04.15:703][955]LogEditorViewport: Clicking on Actor (LMB): TriggerBox_Blueprint_C (TriggerBox_Blueprint)
+[2015.04.13-01.04.32:408][468]LogSavePackage: Save=2765.257813ms
+[2015.04.13-01.04.32:408][468]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/FirstPersonExampleMapAF8062B84CA307E1C00A81BF166136A3.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.04.13-01.04.32:449][468]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 2.957
+[2015.04.13-01.05.50:299][395]LogEditorViewport: Clicking on Actor (LMB): TriggerBox_Blueprint_C (TriggerBox_Blueprint)
+[2015.04.13-01.05.54:904][532]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2015.04.13-01.05.55:546][548]LogEditorViewport: Clicking on Actor (LMB): TriggerBox_Blueprint_C (TriggerBox_Blueprint)
+[2015.04.13-01.07.08:596][983]Cmd: TRANSACTION UNDO
+[2015.04.13-01.07.08:596][983]LogEditorTransaction: Undo Create Actors
+[2015.04.13-01.08.06:311][654]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0040 seconds. Added 1 classes and 3 folders.
+[2015.04.13-01.08.13:651][873]LogEditorViewport: Clicking on Actor (LMB): TriggerBox_Blueprint_C (TriggerBox_Blueprint)
+[2015.04.13-01.08.22:113][131]LogEditorViewport: Clicking on Actor (LMB): TriggerBox_Blueprint_C (TriggerBox_Blueprint)
+[2015.04.13-01.08.31:004][400]LogEditorViewport: Clicking on Actor (LMB): TriggerBox_Blueprint_C (TriggerBox_Blueprint)
+[2015.04.13-01.08.48:585][870]LogSavePackage: Save=2765.508057ms
+[2015.04.13-01.08.48:585][870]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/FirstPersonExampleMap470F8B44472ACF416C3A539A47A5D4C9.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.04.13-01.08.48:625][870]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 2.946
+[2015.04.13-01.08.48:630][870]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TriggerBox_Blueprint" FILE="../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/TriggerBox_Blueprint.uasset" SILENT=true
+[2015.04.13-01.08.48:676][870]LogSavePackage: Save=39.057171ms
+[2015.04.13-01.08.48:676][870]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/TriggerBox_BlueprintA231148441B98807580ED88EAA653522.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/TriggerBox_Blueprint.uasset'
+[2015.04.13-01.08.49:400][956]BlueprintLog: New page: Compile TriggerBox_Blueprint
+[2015.04.13-01.08.49:504][956]BlueprintEditorCompileResults: Info [6318.59] Compile of TriggerBox_Blueprint successful! [in 103 ms]
+[2015.04.13-01.08.55:289][140]LogSavePackage: Save=2744.463379ms
+[2015.04.13-01.08.55:289][140]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/FirstPersonExampleMap550BD2D34377F8276159A9848B72A700.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.04.13-01.08.55:330][140]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 2.915
+[2015.04.13-01.09.29:219][287]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TriggerBox_Blueprint" FILE="../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/TriggerBox_Blueprint.uasset" SILENT=true
+[2015.04.13-01.09.29:269][287]LogSavePackage: Save=45.600014ms
+[2015.04.13-01.09.29:269][287]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/TriggerBox_Blueprint472033B54D2D9DAF2DA4F4ACE4123DC2.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/TriggerBox_Blueprint.uasset'
+[2015.04.13-01.09.30:470][424]BlueprintLog: New page: Compile TriggerBox_Blueprint
+[2015.04.13-01.09.30:488][424]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2015.04.13-01.09.30:488][424]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2015.04.13-01.09.30:681][424]LogBlueprint:Warning: [compiler] Warning [6359.77] Compile of TriggerBox_Blueprint failed. 2 Fatal Issue(s) 0 Warning(s) [in 210 ms]
+[2015.04.13-01.09.30:681][424]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2015.04.13-01.09.30:681][424]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2015.04.13-01.09.30:681][424]BlueprintEditorCompileResults:Warning: Warning [6359.77] Compile of TriggerBox_Blueprint failed. 2 Fatal Issue(s) 0 Warning(s) [in 210 ms]
+[2015.04.13-01.10.43:971][ 78]BlueprintLog: New page: Compile TriggerBox_Blueprint
+[2015.04.13-01.10.44:074][ 78]BlueprintEditorCompileResults: Info [6433.16] Compile of TriggerBox_Blueprint successful! [in 103 ms]
+[2015.04.13-01.10.48:890][294]LogSavePackage: Save=2753.854004ms
+[2015.04.13-01.10.48:890][294]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/FirstPersonExampleMap7A551C8749C31D88D6F46EAAC44597AF.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.04.13-01.10.48:935][294]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 2.950
+[2015.04.13-01.10.48:939][294]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TriggerBox_Blueprint" FILE="../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/TriggerBox_Blueprint.uasset" SILENT=true
+[2015.04.13-01.10.48:986][294]LogSavePackage: Save=42.191830ms
+[2015.04.13-01.10.48:986][294]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/TriggerBox_BlueprintE5B0DD6D49D4AECED05D9E936104B926.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/TriggerBox_Blueprint.uasset'
+[2015.04.13-01.10.50:195][438]BlueprintLog: New page: Compile TriggerBox_Blueprint
+[2015.04.13-01.10.50:298][438]BlueprintEditorCompileResults: Info [6439.39] Compile of TriggerBox_Blueprint successful! [in 103 ms]
+[2015.04.13-01.10.51:142][534]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.13-01.10.51:146][534]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.13-01.10.51:215][534]LogPlayLevel: PIE:  Blueprint regeneration took 72 ms (1 blueprints)
+[2015.04.13-01.10.51:215][534]PIE: New page: PIE session: FirstPersonExampleMap (Apr 12, 2015, 5:10:51 PM)
+[2015.04.13-01.10.51:247][534]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031379s)
+[2015.04.13-01.10.51:248][534]LogPlayLevel: PIE: World Init took: (0.001196s)
+[2015.04.13-01.10.51:248][534]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.032898s)
+[2015.04.13-01.10.51:294][534]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.13-01.10.51:296][534]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.13-01.10.51:305][534]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.12-21.10.51
+[2015.04.13-01.10.51:306][534]LogWorld: Bringing up level for play took: 0.009377
+[2015.04.13-01.10.51:324][534]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.459
+[2015.04.13-01.10.57:504][898]LogScript:Warning: Accessed None 'TargetCube'
+	TriggerBox_Blueprint_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.TriggerBox_Blueprint_C_1
+	Function /Game/TriggerBox_Blueprint.TriggerBox_Blueprint_C:ExecuteUbergraph_TriggerBox_Blueprint:0084
+[2015.04.13-01.10.57:504][898]PIE:Error: Error Accessed None 'TargetCube' from node Construction Script in blueprint TriggerBox_Blueprint
+[2015.04.13-01.11.01:106][ 90]LogScript:Warning: Accessed None 'TargetCube'
+	TriggerBox_Blueprint_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.TriggerBox_Blueprint_C_1
+	Function /Game/TriggerBox_Blueprint.TriggerBox_Blueprint_C:ExecuteUbergraph_TriggerBox_Blueprint:0084
+[2015.04.13-01.11.01:106][ 90]PIE:Error: Error Accessed None 'TargetCube' from node Construction Script in blueprint TriggerBox_Blueprint
+[2015.04.13-01.11.07:756][439]LogScript:Warning: Accessed None 'TargetCube'
+	TriggerBox_Blueprint_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.TriggerBox_Blueprint_C_1
+	Function /Game/TriggerBox_Blueprint.TriggerBox_Blueprint_C:ExecuteUbergraph_TriggerBox_Blueprint:0084
+[2015.04.13-01.11.07:756][439]PIE:Error: Error Accessed None 'TargetCube' from node Construction Script in blueprint TriggerBox_Blueprint
+[2015.04.13-01.11.09:610][537]LogScript:Warning: Accessed None 'TargetCube'
+	TriggerBox_Blueprint_C /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.TriggerBox_Blueprint_C_1
+	Function /Game/TriggerBox_Blueprint.TriggerBox_Blueprint_C:ExecuteUbergraph_TriggerBox_Blueprint:0084
+[2015.04.13-01.11.09:610][537]PIE:Error: Error Accessed None 'TargetCube' from node Construction Script in blueprint TriggerBox_Blueprint
+[2015.04.13-01.11.17:479][945]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000449885CAE0
+[2015.04.13-01.11.33:735][166]LogSavePackage: Save=2760.674072ms
+[2015.04.13-01.11.33:735][166]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/FirstPersonExampleMapDAAA2ECB48F755CB3917D2BF24F781C7.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.04.13-01.11.33:776][166]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 2.936
+[2015.04.13-01.11.34:931][204]MapCheck: New page: Map Check
+[2015.04.13-01.11.34:996][204]Cmd: MAP REBUILD ALLVISIBLE
+[2015.04.13-01.11.34:996][204]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.04.13-01.11.35:026][204]LightingResults: New page: Lighting Build - Apr 12, 2015, 5:11:35 PM
+[2015.04.13-01.11.39:571][204]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.04.13-01.11.39:571][204]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.04.13-01.11.39:571][204]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.04.13-01.11.39:571][204]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.04.13-01.11.39:571][204]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.04.13-01.11.39:691][204]LogEditorBuildUtils: Build time 0:00:04
+[2015.04.13-01.11.39:728][204]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2015.04.13-01.11.39:737][204]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2015.04.13-01.11.42:923][266]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.04.13-01.11.42:928][266]LogPlayLevel: [PIE] Compiling FirstPersonExampleMap before PIE...
+[2015.04.13-01.11.43:029][266]LogPlayLevel: PIE:  Blueprint regeneration took 106 ms (1 blueprints)
+[2015.04.13-01.11.43:029][266]PIE: New page: PIE session: FirstPersonExampleMap (Apr 12, 2015, 5:11:43 PM)
+[2015.04.13-01.11.43:056][266]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026271s)
+[2015.04.13-01.11.43:057][266]LogPlayLevel: PIE: World Init took: (0.001090s)
+[2015.04.13-01.11.43:057][266]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.027656s)
+[2015.04.13-01.11.43:105][266]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2015.04.13-01.11.43:109][266]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2015.04.13-01.11.43:121][266]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2015.04.12-21.11.43
+[2015.04.13-01.11.43:123][266]LogWorld: Bringing up level for play took: 0.013390
+[2015.04.13-01.11.43:125][266]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.658
+[2015.04.13-01.11.46:468][417]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000044F55DC680
+[2015.04.13-01.11.53:896][491]LogSavePackage: Save=4390.116211ms
+[2015.04.13-01.11.53:896][491]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/FirstPersonExampleMap47E38B1344E78B3F07BE9CAA4E1B2456.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.04.13-01.11.53:969][491]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 4.681
+[2015.04.13-01.11.55:952][551]MapCheck: New page: Map Check
+[2015.04.13-01.11.56:027][551]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2015.04.13-01.11.56:028][551]MapCheck: New page: FirstPersonExampleMap - Apr 12, 2015, 5:11:56 PM
+[2015.04.13-01.11.56:063][551]MapCheck:Error: Error WorldInfo_0 Maps need lighting rebuilt 
+[2015.04.13-01.11.56:190][551]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 162.756ms to complete.
+[2015.04.13-01.11.56:213][551]LogEditorBuildUtils: Build time 0:00:00
+[2015.04.13-01.12.17:558][159]MapCheck: New page: Map Check
+[2015.04.13-01.12.17:629][159]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2015.04.13-01.12.17:630][159]MapCheck: New page: FirstPersonExampleMap - Apr 12, 2015, 5:12:17 PM
+[2015.04.13-01.12.17:633][159]MapCheck:Error: Error WorldInfo_0 Maps need lighting rebuilt 
+[2015.04.13-01.12.17:789][159]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 159.093ms to complete.
+[2015.04.13-01.12.17:811][159]LogEditorBuildUtils: Build time 0:00:00
+[2015.04.13-01.12.35:546][663]MapCheck: New page: Map Check
+[2015.04.13-01.12.35:597][663]LogEditorBuildUtils: Build time 0:00:00
+[2015.04.13-01.12.44:295][792]LogSavePackage: Save=4180.356934ms
+[2015.04.13-01.12.44:295][792]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/FirstPersonExampleMap57913EB14DD7953B6044E7803C25E19D.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.04.13-01.12.44:350][792]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 4.426
+[2015.04.13-01.12.45:119][818]MapCheck: New page: Map Check
+[2015.04.13-01.12.45:190][818]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2015.04.13-01.12.45:190][818]MapCheck: New page: FirstPersonExampleMap - Apr 12, 2015, 5:12:45 PM
+[2015.04.13-01.12.45:193][818]MapCheck:Error: Error WorldInfo_0 Maps need lighting rebuilt 
+[2015.04.13-01.12.45:352][818]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 161.577ms to complete.
+[2015.04.13-01.12.45:374][818]LogEditorBuildUtils: Build time 0:00:00
+[2015.04.13-01.13.12:806][592]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.04.13-01.13.13:690][619]MapCheck: New page: Map Check
+[2015.04.13-01.13.13:758][619]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2015.04.13-01.13.13:758][619]MapCheck: New page: FirstPersonExampleMap - Apr 12, 2015, 5:13:13 PM
+[2015.04.13-01.13.13:762][619]MapCheck:Error: Error WorldInfo_0 Maps need lighting rebuilt 
+[2015.04.13-01.13.13:920][619]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 161.564ms to complete.
+[2015.04.13-01.13.13:942][619]LogEditorBuildUtils: Build time 0:00:00
+[2015.04.13-01.13.22:506][736]LogSavePackage: Save=4219.424805ms
+[2015.04.13-01.13.22:506][736]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/FirstPersonExampleMap221B5FCB48547E8242826DBFF0D5FA8A.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.04.13-01.13.22:574][736]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 4.499
+[2015.04.13-01.13.24:463][797]MapCheck: New page: Map Check
+[2015.04.13-01.13.24:552][797]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2015.04.13-01.13.24:552][797]MapCheck: New page: FirstPersonExampleMap - Apr 12, 2015, 5:13:24 PM
+[2015.04.13-01.13.24:555][797]MapCheck:Error: Error WorldInfo_0 Maps need lighting rebuilt 
+[2015.04.13-01.13.24:714][797]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 162.52ms to complete.
+[2015.04.13-01.13.24:737][797]LogEditorBuildUtils: Build time 0:00:00
+[2015.04.13-01.13.26:631][848]Job is a success!
+[2015.04.13-01.13.30:944][849]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.04.13-01.13.34:536][849]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2015.04.13-01.13.34:539][849]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2015.04.13-01.13.34:556][849]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2015.04.13-01.13.34:841][849]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2015.04.13-01.13.35:663][849]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2015.04.13-01.13.35:918][849]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2015.04.13-01.13.36:803][849]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2015.04.13-01.13.37:050][849]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2015.04.13-01.13.37:919][849]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2015.04.13-01.13.38:208][849]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2015.04.13-01.13.39:282][849]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2015.04.13-01.13.39:547][849]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2015.04.13-01.13.40:676][849]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.04.13-01.13.40:938][849]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.04.13-01.13.42:018][849]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2015.04.13-01.13.46:107][849]LogTexture:Display: Building textures: ShadowMapTexture2D_16 (BGRA8)
+[2015.04.13-01.13.47:552][849]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (BGRA8)
+[2015.04.13-01.13.48:479][849]LogTexture:Display: Building textures: ShadowMapTexture2D_18 (BGRA8)
+[2015.04.13-01.13.49:389][849]LogTexture:Display: Building textures: ShadowMapTexture2D_19 (BGRA8)
+[2015.04.13-01.13.50:326][849]LogTexture:Display: Building textures: ShadowMapTexture2D_20 (BGRA8)
+[2015.04.13-01.13.51:247][849]LogTexture:Display: Building textures: ShadowMapTexture2D_21 (BGRA8)
+[2015.04.13-01.13.52:200][849]LogTexture:Display: Building textures: ShadowMapTexture2D_22 (BGRA8)
+[2015.04.13-01.13.52:364][849]LogTexture:Display: Building textures: ShadowMapTexture2D_23 (BGRA8)
+[2015.04.13-01.13.52:367][849]LogTexture:Display: Building textures: ShadowMapTexture2D_24 (BGRA8)
+[2015.04.13-01.13.52:410][849]Lightmass on GRAPHICSSERVER: 2:11 min total, 153 ms importing, 0 ms setup, 5.14 sec photons, 2:05 min processing, 0 ms extra exporting [9/9 mappings]. Threads: 14:40 min total, 6:29 min processing.
+[2015.04.13-01.13.52:502][849]LogStaticLightingSystem: Illumination: 2:17 min (24.8 sec encoding lightmaps)
+[2015.04.13-01.13.52:502][849]LogStaticLightingSystem: Lightmap texture memory:  53.3 MB (53.3 MB streaming, 0.0 MB non-streaming), 16 textures
+[2015.04.13-01.13.52:502][849]LogStaticLightingSystem: Shadowmap texture memory: 213.4 MB (213.4 MB streaming, 0.0 MB non-streaming), 17 textures
+[2015.04.13-01.13.52:672][850]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.04.13-01.13.52:672][850]MapCheck: New page: FirstPersonExampleMap - Apr 12, 2015, 5:13:52 PM
+[2015.04.13-01.13.52:784][850]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 112.262ms to complete.
+[2015.04.13-01.14.02:688][ 64]LogSavePackage: Save=2745.018066ms
+[2015.04.13-01.14.02:688][ 64]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/FirstPersonExampleMapA85118A04934AC27C73134B46B617D88.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.04.13-01.14.02:729][ 64]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 2.936
+[2015.04.13-01.14.06:098][173]MapCheck: New page: Map Check
+[2015.04.13-01.14.06:159][173]Cmd: MAP REBUILD ALLVISIBLE
+[2015.04.13-01.14.06:159][173]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2015.04.13-01.14.06:192][173]LightingResults: New page: Lighting Build - Apr 12, 2015, 5:14:06 PM
+[2015.04.13-01.14.10:712][173]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.04.13-01.14.10:712][173]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.04.13-01.14.10:712][173]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.04.13-01.14.10:712][173]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.04.13-01.14.10:712][173]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.04.13-01.14.10:824][173]LogEditorBuildUtils: Build time 0:00:04
+[2015.04.13-01.14.17:673][267]LogSavePackage: Save=3407.922119ms
+[2015.04.13-01.14.17:673][267]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/FirstPersonExampleMap9D27BE434C46E60C09018884BB044842.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.04.13-01.14.17:743][267]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 3.626
+[2015.04.13-01.16.00:021][530]Job is a success!
+[2015.04.13-01.16.04:258][531]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2015.04.13-01.16.07:829][531]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
+[2015.04.13-01.16.07:832][531]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
+[2015.04.13-01.16.07:848][531]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
+[2015.04.13-01.16.08:127][531]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2015.04.13-01.16.08:937][531]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2015.04.13-01.16.09:179][531]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2015.04.13-01.16.10:051][531]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2015.04.13-01.16.10:296][531]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2015.04.13-01.16.11:178][531]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2015.04.13-01.16.11:449][531]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2015.04.13-01.16.12:525][531]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2015.04.13-01.16.12:782][531]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2015.04.13-01.16.13:882][531]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2015.04.13-01.16.14:136][531]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2015.04.13-01.16.15:223][531]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.04.13-01.16.19:379][531]LogTexture:Display: Building textures: ShadowMapTexture2D_25 (BGRA8)
+[2015.04.13-01.16.20:825][531]LogTexture:Display: Building textures: ShadowMapTexture2D_26 (BGRA8)
+[2015.04.13-01.16.21:721][531]LogTexture:Display: Building textures: ShadowMapTexture2D_27 (BGRA8)
+[2015.04.13-01.16.22:625][531]LogTexture:Display: Building textures: ShadowMapTexture2D_28 (BGRA8)
+[2015.04.13-01.16.23:507][531]LogTexture:Display: Building textures: ShadowMapTexture2D_29 (BGRA8)
+[2015.04.13-01.16.24:431][531]LogTexture:Display: Building textures: ShadowMapTexture2D_30 (BGRA8)
+[2015.04.13-01.16.25:325][531]LogTexture:Display: Building textures: ShadowMapTexture2D_31 (BGRA8)
+[2015.04.13-01.16.25:465][531]LogTexture:Display: Building textures: ShadowMapTexture2D_32 (BGRA8)
+[2015.04.13-01.16.25:468][531]LogTexture:Display: Building textures: ShadowMapTexture2D_33 (BGRA8)
+[2015.04.13-01.16.25:507][531]Lightmass on GRAPHICSSERVER: 2:14 min total, 115 ms importing, 0 ms setup, 5.29 sec photons, 2:08 min processing, 0 ms extra exporting [9/9 mappings]. Threads: 15:00 min total, 6:38 min processing.
+[2015.04.13-01.16.25:581][531]LogStaticLightingSystem: Illumination: 2:19 min (24.5 sec encoding lightmaps)
+[2015.04.13-01.16.25:581][531]LogStaticLightingSystem: Lightmap texture memory:  53.3 MB (53.3 MB streaming, 0.0 MB non-streaming), 16 textures
+[2015.04.13-01.16.25:581][531]LogStaticLightingSystem: Shadowmap texture memory: 320.1 MB (320.1 MB streaming, 0.0 MB non-streaming), 26 textures
+[2015.04.13-01.16.25:828][532]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.04.13-01.16.25:829][532]MapCheck: New page: FirstPersonExampleMap - Apr 12, 2015, 5:16:25 PM
+[2015.04.13-01.16.25:939][532]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 110.232ms to complete.
+[2015.04.13-01.24.43:092][400]LogSavePackage: Save=2742.107422ms
+[2015.04.13-01.24.43:092][400]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/FirstPersonExampleMap_Auto51382C89B48296EE38B543291E2F3CE62.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto5.umap'
+[2015.04.13-01.24.43:099][400]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 3.069
+[2015.04.13-01.24.43:099][400]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.069
+[2015.04.13-02.44.04:482][510]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall8)
+[2015.04.13-02.44.16:630][791]LogSavePackage: Save=2738.254883ms
+[2015.04.13-02.44.16:630][791]LogSavePackage: Moving '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Saved/FirstPersonExampleMap1532FD4F48DFE01F9EA510AC48886CE1.tmp' to '../../../../../Tyler/Documents/GitHub/Games/Sandbox/BluePrints/Blueprints1/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2015.04.13-02.44.16:673][791]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 2.939
+[2015.04.13-02.44.20:386][884]Cmd: QUIT_EDITOR
+[2015.04.13-02.44.20:689][884]LogExit: Preparing to exit.
+[2015.04.13-02.44.21:173][884]LogExit: Editor shut down
+[2015.04.13-02.44.21:173][884]LogExit: Transaction tracking system shut down
+[2015.04.13-02.44.21:175][884]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000044EAA4BE20
+[2015.04.13-02.44.21:176][884]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000449B35B880
+[2015.04.13-02.44.21:176][884]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000449D721580
+[2015.04.13-02.44.21:176][884]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000449D723100
+[2015.04.13-02.44.21:178][884]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000044EA4BF420
+[2015.04.13-02.44.21:178][884]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000449FFEEE80
+[2015.04.13-02.44.21:533][884]LogExit: Object subsystem successfully closed.
+[2015.04.13-02.44.21:587][884]LogModuleManager: Shutting down and abandoning module WorldBrowser (178)
+[2015.04.13-02.44.21:587][884]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.04.13-02.44.21:587][884]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.04.13-02.44.21:587][884]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.04.13-02.44.21:587][884]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.04.13-02.44.21:587][884]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.04.13-02.44.21:587][884]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.04.13-02.44.21:587][884]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.04.13-02.44.21:587][884]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.04.13-02.44.21:587][884]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.04.13-02.44.21:587][884]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.04.13-02.44.21:588][884]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.04.13-02.44.21:588][884]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.04.13-02.44.21:588][884]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.04.13-02.44.21:588][884]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.04.13-02.44.21:588][884]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.04.13-02.44.21:588][884]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.04.13-02.44.21:588][884]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.04.13-02.44.21:588][884]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.04.13-02.44.21:588][884]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.04.13-02.44.21:588][884]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.04.13-02.44.21:588][884]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.04.13-02.44.21:588][884]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.04.13-02.44.21:588][884]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.04.13-02.44.21:588][884]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.04.13-02.44.21:588][884]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.04.13-02.44.21:588][884]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.04.13-02.44.21:588][884]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.04.13-02.44.21:588][884]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.04.13-02.44.21:588][884]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.04.13-02.44.21:588][884]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.04.13-02.44.21:588][884]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.04.13-02.44.21:588][884]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.04.13-02.44.22:367][884]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.04.13-02.44.22:367][884]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.04.13-02.44.22:367][884]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.04.13-02.44.22:367][884]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.04.13-02.44.22:367][884]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.04.13-02.44.22:367][884]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.04.13-02.44.22:367][884]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.04.13-02.44.22:367][884]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.04.13-02.44.22:367][884]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.04.13-02.44.22:367][884]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.04.13-02.44.22:367][884]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.04.13-02.44.22:367][884]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.04.13-02.44.22:367][884]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.04.13-02.44.22:367][884]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.04.13-02.44.22:367][884]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.04.13-02.44.22:367][884]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.04.13-02.44.22:367][884]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.04.13-02.44.22:367][884]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.04.13-02.44.22:368][884]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.04.13-02.44.22:438][884]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.04.13-02.44.22:438][884]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.04.13-02.44.22:438][884]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.04.13-02.44.22:439][884]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.04.13-02.44.22:439][884]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.04.13-02.44.22:439][884]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.04.13-02.44.22:439][884]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.04.13-02.44.22:439][884]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.04.13-02.44.22:439][884]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.04.13-02.44.22:439][884]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.04.13-02.44.22:439][884]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.04.13-02.44.22:439][884]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.04.13-02.44.22:440][884]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.04.13-02.44.22:440][884]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.04.13-02.44.22:440][884]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.04.13-02.44.22:440][884]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.04.13-02.44.22:440][884]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.04.13-02.44.22:440][884]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.04.13-02.44.22:440][884]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.04.13-02.44.22:440][884]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.04.13-02.44.22:440][884]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.04.13-02.44.22:585][884]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.04.13-02.44.22:585][884]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.04.13-02.44.22:585][884]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.04.13-02.44.22:585][884]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.04.13-02.44.22:585][884]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.04.13-02.44.22:585][884]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.04.13-02.44.22:585][884]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.04.13-02.44.22:585][884]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.04.13-02.44.22:585][884]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.04.13-02.44.22:585][884]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.04.13-02.44.22:585][884]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.04.13-02.44.22:585][884]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.04.13-02.44.22:585][884]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.04.13-02.44.22:586][884]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.04.13-02.44.22:586][884]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.04.13-02.44.22:586][884]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.04.13-02.44.22:586][884]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.04.13-02.44.22:586][884]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.04.13-02.44.22:586][884]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.04.13-02.44.22:586][884]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.04.13-02.44.22:586][884]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.04.13-02.44.22:586][884]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.04.13-02.44.22:586][884]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.04.13-02.44.22:586][884]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.04.13-02.44.22:587][884]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.04.13-02.44.22:587][884]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.04.13-02.44.22:587][884]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.04.13-02.44.22:689][884]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.04.13-02.44.22:689][884]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.04.13-02.44.22:693][884]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.04.13-02.44.22:693][884]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.04.13-02.44.22:693][884]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.04.13-02.44.22:693][884]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.04.13-02.44.22:693][884]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.04.13-02.44.22:693][884]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.04.13-02.44.22:693][884]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.04.13-02.44.22:693][884]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.04.13-02.44.22:693][884]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.04.13-02.44.22:693][884]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.04.13-02.44.22:693][884]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.04.13-02.44.22:693][884]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.04.13-02.44.22:693][884]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.04.13-02.44.22:693][884]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.04.13-02.44.22:693][884]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.04.13-02.44.22:700][884]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.04.13-02.44.22:700][884]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.04.13-02.44.22:700][884]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.04.13-02.44.22:700][884]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.04.13-02.44.22:700][884]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.04.13-02.44.22:700][884]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.04.13-02.44.22:700][884]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.04.13-02.44.22:700][884]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.04.13-02.44.22:700][884]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.04.13-02.44.22:700][884]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.04.13-02.44.22:702][884]LogDerivedDataCache: Shutdown
+[2015.04.13-02.44.22:702][884]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.04.13-02.44.22:702][884]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.04.13-02.44.22:702][884]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.04.13-02.44.22:702][884]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.04.13-02.44.22:702][884]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.04.13-02.44.22:702][884]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.04.13-02.44.22:702][884]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.04.13-02.44.22:702][884]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.04.13-02.44.22:702][884]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.04.13-02.44.22:702][884]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.04.13-02.44.22:702][884]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.04.13-02.44.22:702][884]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.04.13-02.44.22:702][884]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.04.13-02.44.22:702][884]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.04.13-02.44.22:702][884]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.04.13-02.44.22:702][884]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.04.13-02.44.22:702][884]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.04.13-02.44.22:702][884]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.04.13-02.44.22:702][884]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.04.13-02.44.22:702][884]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.04.13-02.44.22:702][884]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.04.13-02.44.22:702][884]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.04.13-02.44.22:702][884]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.04.13-02.44.22:702][884]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.04.13-02.44.22:702][884]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.04.13-02.44.22:702][884]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.04.13-02.44.22:702][884]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.04.13-02.44.22:702][884]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.04.13-02.44.22:702][884]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.04.13-02.44.22:702][884]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.04.13-02.44.22:702][884]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.04.13-02.44.22:702][884]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.04.13-02.44.22:703][884]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.04.13-02.44.22:703][884]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.04.13-02.44.22:703][884]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.04.13-02.44.22:703][884]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.04.13-02.44.22:703][884]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.04.13-02.44.22:703][884]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.04.13-02.44.22:703][884]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.04.13-02.44.22:703][884]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.04.13-02.44.22:715][884]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.04.13-02.44.22:715][884]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.04.13-02.44.22:715][884]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.04.13-02.44.22:715][884]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.04.13-02.44.22:715][884]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.04.13-02.44.22:715][884]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.04.13-02.44.22:715][884]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.04.13-02.44.22:715][884]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.04.13-02.44.22:715][884]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.04.13-02.44.22:716][884]LogExit: Exiting.
+[2015.04.13-02.44.22:741][884]Log file closed, 04/12/15 22:44:22
